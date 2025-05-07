@@ -48,7 +48,7 @@ def save_icon(domain):
         print(f"⚠️ {domain} 没有可用图标")
 
 # 示例：抓取多个网站的图标
-domains = ["example.com", "baidu.com", "taobao.com", "github.com", "google.com"]
+domains = ["baidu.com", "taobao.com", "github.com", "google.com"]
 for domain in domains:
     save_icon(domain)
 
