@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><title>文心大模型-产业级知识增强大模型</title><meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no,viewport-fit=cover"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="yes" name="apple-touch-fullscreen"/><meta content="telephone=no,email=no" name="format-detection"/><meta name="keywords" content="文心,百度文心,文心大模型,百度文心大模型,鹏城百度文心,知识增强,知识增强大模型"/><meta name="description" content="百度文心,产业级知识增强大模型,包含基础通用大模型及面向重点领域和重点任务的大模型,同时有丰富的工具与平台支撑高效便捷的应用开发,学习效率高,可解释性好,大幅降低AI开发与应用门槛."/><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><meta name="baidu-site-verification" content="codeva-Xl7Az3rCVT"/><link rel="shortcut icon" href="https://wenxin-home-page.bj.bcebos.com/images/logoNew/favicon.ico" type="image/ico"/><script defer="defer" src="https://nlp-wenxin.cdn.bcebos.com/static/wenxin/js/runtime.e6e23383.js"></script><script defer="defer" src="https://nlp-wenxin.cdn.bcebos.com/static/wenxin/js/vendors.1ddfead4.js"></script><script defer="defer" src="https://nlp-wenxin.cdn.bcebos.com/static/wenxin/js/index.6126fd68.js"></script><link href="https://nlp-wenxin.cdn.bcebos.com/static/wenxin/css/vendors.ac6d2ce1.css" rel="stylesheet"><link href="https://nlp-wenxin.cdn.bcebos.com/static/wenxin/css/index.4a1e9655.css" rel="stylesheet"></head><body><div id="root"></div></body><script>/* eslint-disable */
+        var _hmt = _hmt || [];
+        // 只含文心官网部分
+        (function () {
+            var hm = document.createElement('script');
+            hm.src = 'https://hm.baidu.com/hm.js?ebb78972b12bd9aef5154dd056e04b1b';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+
+        // 文心全站，包含文心官网、旸谷社区、大模型API、百中、Plato的数据
+        (function () {
+            var hm = document.createElement('script');
+            hm.src = 'https://hm.baidu.com/hm.js?2afac93d049f764631532f127735d99f';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(hm, s);
+        })();</script></html>

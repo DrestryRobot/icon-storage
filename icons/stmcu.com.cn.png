@@ -1,0 +1,1263 @@
+<!DOCTYPE HTML>
+<html class="">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="
+	STM32系列是基于ARM® Cortex®-M0、M0+、M3、M4、M33、M7及A7内核并具备丰富外设选择的32位微控制器及微处理器。 STM32 MCU及MPU覆盖主流型、高性能，超低功耗，无线系列等，超20大产品线，提供人工智能AI，图形应用界面GUI，电机控制，信息安全与功能安全解决方案，STM32不止于芯。" />
+
+	<meta name="keywords" content="
+	STM32, STM8, 单片机，MCU，STM，意法半导体，ARM Cortex-M, ST，32位单片机，8位单片机，32位MCU，8位MCU， 32位微控制器，8位微控制器, ARM单片机" />
+
+	<meta name="baidu-site-verification" content="Eero0K0l5k" />
+	<base href="https://www.stmcu.com.cn/applications/Home/" />
+	<title>
+		STMCU中文官网	</title>
+	<link rel="shortcut icon" href="https://static.stmcu.com.cn/applications/Home/public/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://static.stmcu.com.cn/applications/Home/js/bootstrap-3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://static.stmcu.com.cn/applications/Home/js/bootstrap-3.4.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="/applications/Home/css/css.min.css?v1.1.1" />
+	<link rel="stylesheet" href="/applications/Home/public/css/main.css?v=1.32" />
+	<link rel="stylesheet" href="/applications/Home/public/css/mobile.css?v=1.25" />
+	<link rel="stylesheet" href="/applications/Home/public/css/login.css?v1.0.1" />
+  <link rel="stylesheet" href="/applications/Home/css/share.css?v.0.0.2" />
+		<link rel="stylesheet" href="/applications/Home/css/my_common.css?v1.0.5" />
+	<link rel="stylesheet" href="/applications/Home/css/my_mobile.css?v1.0.2" />
+	<script type="text/javascript" src="/applications/Home/js/my_common2.js?v=1"></script>
+	<script type="text/javascript" src='//player.polyv.net/script/polyvplayer.min.js'></script>
+	<script type="text/javascript" src="https://static.stmcu.com.cn/applications/Home/js/jquery-3.6.1.min.js"></script>
+	<script type="text/javascript" src="https://static.stmcu.com.cn/applications/Home/js/jquery-migrate-3.4.0.min.js"></script>
+	<script type="text/javascript" src="https://static.stmcu.com.cn/applications/Home/js/jquery.qrcode.min.js"></script>
+	<script type="text/javascript" src="https://static.stmcu.com.cn/applications/Home/js/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="https://static.stmcu.com.cn/applications/Home/js/scrolltopcontrol.js?v=2.0.1"></script>
+		<script type="text/javascript" src="/applications/Home/js/share.js"></script>
+		<script type="text/javascript">
+		// 追踪代码，勿动
+		var environment;
+		var digitalData = {
+			pageInstanceID: "Homepage",
+			page: {
+				pageInfo: {
+					pageID: 'prod:' + document.location.pathname.split("/").join(":"),
+					pageName: 'STMCU Home',
+					hierarchie1: 'STMCU Home',
+					hierarchie2: '',
+					pageShortName: 'STMCU Home',
+					server: document.location.host,
+					destinationURL: document.location.href,
+					isIframe: false,
+					contentIframe: false,
+					downloadURL: '',
+					urlShortcut: '',
+					breadCrumbs: 'Home:About STM32:About ST',
+					referringURL: document.referrer,
+					sysEnv: 'desktop',
+					previous: {
+						pageShortName: ''
+					}
+				},
+				category: {
+					primaryCategory: 'STMCU Home',
+					error: '',
+					Type: 'stmcu.com.cn'
+				},
+				attributes: {
+					language: 'Chinese',
+					version: '2.0'
+				}
+			},
+			user: [{
+				profile: [{
+					profileInfo: {
+						profileID: ''
+					},
+					attributes: {
+						region: '',
+						userCRMCompany: '',
+						userFunction: '',
+						userLevel: '',
+						userRegCompany: '',
+						TeamspaceName: '',
+						LoggedIn: ''
+					}
+				}]
+			}],
+			version: '1.0',
+			component: 'stmcu:',
+			environment: 'prod',
+			site: 'stmcu',
+			event: []
+		}
+	</script>
+	<script src="//assets.adobedtm.com/a86419113799/850effc154f4/launch-fca788d733fd.min.js"></script>
+	<script>
+				dataLayer = [];
+	</script>
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KJ95TG3');
+	</script>
+	<!-- End Google Tag Manager -->
+	<script type="text/javascript">
+		function load_board_img(obj, img_path) {
+			obj.onload = null;
+			$.ajax({
+				url: 'https://www.stmcu.com.cn/Designresource/ajax_load_image ',
+				data: {
+					img_path: img_path
+				},
+				type: 'post',
+				dataType: 'json',
+				//async:false,
+				success: function(data) {
+					if (data.status == 0) {
+						$(obj).attr('src', data.res);
+					} else {
+						$(obj).parent('dd').empty().html(data.error);
+					}
+				}
+			});
+		}
+	</script>
+</head>
+
+<body>
+	<!--Common Header-->
+	<div class="common-h-wrap">
+		<div class="container stHeaderW">
+			<div class="row clearfix" style="margin-left: 0;margin-right: 0;">
+				<div class="common-h-left pull-left">
+					<a class="common-height-auto-width-logo" href="https://www.st.com.cn/content/st_com/zh.html" target="_blank" rel="noopener noreferrer">
+						<img src="https://static.stmcu.com.cn/2024-st-logo-blue.svg" alt="st logo">
+					</a>
+					<a class="common-h-logo" href="/">
+						<img src="https://static.stmcu.com.cn/applications/Home/public/img/2020_st/stm-logo.svg" alt="st logo">
+					</a>
+				</div>
+				<div class="common-h-right clearfix">
+					<!-- Search -->
+					<div class="common-h-search pull-right">
+						<form id="search-form" method="get" action="https://www.stmcu.com.cn/Search/index">
+							<input type="hidden" name="csrf_token" value="a7b2ace97311e217313d244dcfdab355" />
+							<input name="search_keywords" id="search_keywords" type="text" class="common-form-control" value="" placeholder="站内搜索">
+							<input name="" type="button" class="common-form-btn" onclick="search_form_validate();">
+						</form>
+					</div>
+					<!--Wx And Mcu-->
+					<div class="common-wx-wrap pull-right clearfix">
+						<div class="wx-wx-box">
+							<div class="wx-outer">
+								<img src="https://static.stmcu.com.cn/applications/Home/images/common/wechat_code.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="stmcu微信公众号二维码">
+							</div>
+						</div>
+						<div class="wx-mcu-box">
+							<div class="wx-outer">
+								<img src="https://static.stmcu.com.cn/applications/Home/images/common/wx-download.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="MCU微信公众号二维码">
+							</div>
+						</div>
+						<div class="wx-video-box">
+							<div class="wx-outer">
+								<img src="https://static.stmcu.com.cn/applications/Home/images/common/STM32wxvideo.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="STM32视频号二维码">
+							</div>
+						</div>
+						<a href="//space.bilibili.com/2100019006?from=search&seid=6727742697039098458&spm_id_from=333.337.0.0" style="display:block;
+										float: left;
+										width: 30px;
+										height: 30px;
+										margin: 0 5px;
+  									border-radius: 5px;
+  									cursor: pointer;
+  									z-index: 8;
+  									position: relative;" target="_blank">
+							<div class="bilibili-box">
+							</div>
+						</a>
+					</div>
+					<!--Shop-->
+					<ul class="common-shop pull-right clearfix">
+						<!-- <li>
+							<a class="wx-shop" href="javascript:;">
+								<a href="/Index/jumpToTmall?utm_campaign=tianmaodian&utm_medium=click&utm_source=stmcu">天猫旗舰店</a>
+								<div class="wx-outer">
+									<img src="https://static.stmcu.com.cn/applications/Home/public/img/common/wx-shop.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="天猫旗舰店二维码">
+								</div>
+							</a>
+							<img class="icon-buy-tip" src="https://static.stmcu.com.cn/applications/Home/public/img/icon-buy.svg">
+						</li> -->
+						<!-- <li>
+							<img class="icon-buy-tip" src="https://static.stmcu.com.cn/applications/Home/public/img/icon-buy.svg">
+							<a href="/Index/jumpToJD?utm_source=stmcu&utm_medium=click&utm_campaign=jddian">京东生态店</a>
+						</li> -->
+						<!-- <li>
+							<img class="icon-buy-tip" src="https://static.stmcu.com.cn/applications/Home/public/img/icon-buy.svg">
+							<a href="https://www.stmcu.com.cn/Index/shop">在线购买</a>
+						</li>
+						<li> -->
+						<a href="//shequ.stmicroelectronics.cn/forum.php?mod=forumdisplay&action=list&fid=1331&orderby=dateline">ST中文论坛</a>
+						</li>
+					</ul>
+					<!--Sign-->
+					<ul class="common-h-login pull-right clearfix">
+													<li><a href="https://sso.stmicroelectronics.cn/User/Login?redirect_uri=https%3A%2F%2Fwww.stmcu.com.cn%2Fmanifest.json">登录</a></li>
+							<li class="line">|</li>
+							<li><a href="https://sso.stmicroelectronics.cn/User/registerStep1?redirect_uri=https%3A%2F%2Fwww.stmcu.com.cn%2Fmanifest.json">注册</a></li>
+											</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Common Nav-->
+	<div class="menu">
+		<div class="container">
+			<ul class="clearfix">
+																											<li>
+																	<a _t_nav="head56" href="https://www.stmcu.com.cn/about"  class="off" id="m101">关于STM32</a>
+															</li>
+																																																																																						<li>
+																	<a _t_nav="head61" href="https://www.stmcu.com.cn/product"  class="off" id="m102">产品</a>
+															</li>
+																																																																											<li>
+																	<a _t_nav="head371" href="https://www.stmcu.com.cn/ecosystem/app/function-safety"  class="off" id="m103">垂直应用</a>
+															</li>
+																																																																																																																							<li>
+																	<a _t_nav="head62" href="https://www.stmcu.com.cn/design_resource"  class="off" id="m104">设计资源</a>
+															</li>
+																																																																																																																							<li>
+																	<a _t_nav="head63" href="https://www.stmcu.com.cn/Meeting/Newest"  class="off" id="m105">活动与培训</a>
+															</li>
+																																																																																																												<li>
+																	<a _t_nav="head74" href="https://www.stmcu.com.cn/university"  class="off" id="m106">大学计划</a>
+															</li>
+																																																																																																												<li>
+																	<a _t_nav="head64" href="https://www.stmcu.com.cn/ecosystem"  class="off" id="m107">生态系统</a>
+															</li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																	<li>
+																	<a _t_nav="head576" href="javascript:;" class= "no_path" class="off" id="m108">开发者社区</a>
+															</li>
+																																																										</ul>
+		</div>
+	</div>
+	<!--Common Header of Mobile-->
+	<header class="m-header-wrap clearfix">
+  <div class="m-header-left clearfix">
+    <div class="pull-left">
+      <a class="common-height-auto-width-logo" href="https://www.st.com.cn/content/st_com/zh.html" target="_blank" rel="noopener noreferrer">
+        <img src="https://static.stmcu.com.cn/2024-st-logo-blue.svg" alt="st logo">
+        <div class="divider-line"></div>
+      </a>
+      <a class="common-h-logo" href="/"><img src="https://static.stmcu.com.cn/applications/Home/public/img/2020_st/stm-logo.svg" alt="st logo"></a>
+    </div>
+    <div class="pull-right">
+      <div class="dropdowner" id="dropdowner">
+        <div class="m-search-btn">
+          <span></span>
+        </div>
+        <div class="dropdown-menu">
+          <!-- Search -->
+          <div class="common-h-search pull-right">
+            <form id="mobile-search-form" method="get" action="https://www.stmcu.com.cn/Search/index">
+              <input type="hidden" name="csrf_token" value="a7b2ace97311e217313d244dcfdab355" />
+              <input name="mobile_search_keywords" id="mobile_search_keywords" type="text" class="common-form-control" value="" placeholder="站内搜索" require>
+              <input name="" type="button" class="common-form-btn" onclick="search_mobile_form_validate();">
+            </form>
+          </div>
+        </div>
+        <div class="dropdown-search-backdrop" id="backdrop"></div>
+      </div>
+    </div>
+  </div>
+  <div class="m-header-right clearfix">
+    <div class="pull-left">
+      <a class="m-person-btn" href="https://www.stmcu.com.cn/User/Login" class="cd_user" style="position: relative">
+              </a>
+    </div>
+    <div class="pull-right">
+      <a class="m-menu-btn menu-btn-click" id="menuBtn" href="javascript:;"><span></span></a>
+    </div>
+    <!--Menu Content-->
+    <div class="m-menu-modal" id="menuModal">
+      <div class="menu-header clearfix">
+        <span class="pull-left">
+            <a href="https://sso.stmicroelectronics.cn/User/Login?redirect_uri=https%3A%2F%2Fwww.stmcu.com.cn%2Fmanifest.json">登录</a> | <a href="https://sso.stmicroelectronics.cn/User/registerStep1?redirect_uri=https%3A%2F%2Fwww.stmcu.com.cn%2Fmanifest.json">注册</a>
+        </span>
+        <span class="m-remove-btn menu-btn-click pull-right text-right"></span>
+      </div>
+      <div class="menu-item-wrap">
+        <div class="m-menu-content">
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/Mobile/user_center">会员中心</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/Mobile/user_profile">个人资料</a>
+            <a href="https://www.stmcu.com.cn/Mobile/user_history">历史下载记录</a>
+            <a href="https://www.stmcu.com.cn/Mobile/user_fav">我的收藏</a>
+            <a href="https://www.stmcu.com.cn/Mobile/user_points_goods">积点兑换</a>
+            <a href="https://www.stmcu.com.cn/my/Active/index">我的活动</a>
+            <a href="https://www.stmcu.com.cn/Mobile/user_share">分享上传</a>
+            <!--<a href="#">我感兴趣的</a>-->
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/ABOUT">关于STM32</a></dt>
+        <dd><a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/aboutst">关于ST</a>
+            <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/aboutstmcu">关于ST MCU</a>
+            <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/mission">网站使命</a>
+            <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/news">新闻中心</a>
+            <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/mkt_info">STM32市场资讯</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/Mobile/pro_index/cat_code/PRODUCT">产品中心</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/Mobile/pro_detail/cat_code/PRODUCTSTM32/family/81/layout/product">STM32 MCU</a>
+            <a href="https://www.stmcu.com.cn/Mobile/pro_detail/cat_code/PRODUCTSTM32Wireless/family/585/layout/product">STM32 Wireless</a>
+            <a href="https://www.stmcu.com.cn/Mobile/pro_detail/cat_code/PRODUCTSTM32MPU/family/460/layout/product">STM32 MPU</a>
+            <a href="https://www.stmcu.com.cn/Mobile/pro_detail/cat_code/PRODUCTSTM8/family/82/layout/product">STM8 MCU</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/ecosystem/app/function-safety">垂直应用</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/function-safety">功能安全</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/cloud">云连接</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/information-security-OVERVIEW">信息安全</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/Motor-control">电机控制</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/ai">人工智能(AI)</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/digital_power">数字电源</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/Wireless">无线连接</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/function-GUI">GUI（人机界面）</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/design_resource">设计资源</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/document/pro_cat/STM32 MCU">芯片文档</a>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/firmware_software/pro_cat/STM32 MCU">固件和软件</a>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/evaluation_development_board/pro_cat/STM32 MCU">评估开发板</a>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/development_tools/pro_cat/STM32 MCU">硬件开发工具</a>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/localization_document/pro_cat/STM32 MCU">中文译文</a>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/LAT/pro_cat/STM32 MCU">实战经验</a>
+            <a href="https://www.stmcu.com.cn/Mobile/design_list/cat_code/training/pro_cat/STM32 MCU">培训课件</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/summit2025">活动与培训</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/summit2025">STM32峰会</a>
+            <a href="https://www.stmcu.com.cn/summitontour2024">全国研讨会</a>
+            <a href="https://www.stmcu.com.cn/2022techweek?para=stm32_site&utm_medium=referral&utm_source=stm32_site&utm_campaign=techweek_2022">STM32线上技术周</a>
+            <!--<a href="https://www.stmcu.com.cn/Mobile/activity_training/cat_code/TECHNICALTRAINING">技术培训</a>-->
+            <a href="https://www.stmcu.com.cn/Meeting/Newest">技术培训</a>
+            <a href="https://www.stmcu.com.cn/summit2025">最新活动</a>
+            <a href="https://www.stmcu.com.cn/Mobile/activity_review/cat_code/TRAININGREVIEW">活动回顾</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/university">大学计划</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/university/course">精品课程</a>
+            <a href="https://www.stmcu.com.cn/university/train">师资培训</a>
+            <a href="https://www.stmcu.com.cn/contest">大学生竞赛</a>
+            <a href="https://www.stmcu.com.cn/arm">创新基地</a>
+            <a href="https://www.stmcu.com.cn/university/osp">开源项目</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="https://www.stmcu.com.cn/ecosystem">生态系统</a></dt>
+        <dd>
+            <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-stm32wb">芯片系列</a>
+            <a href="https://www.stmcu.com.cn/ecosystem/app/function-safety">垂直应用</a>
+            <a href="https://www.stmcu.com.cn/design">合作伙伴解决方案</a>
+            <a href="https://www.stmcu.com.cn/partners">中国合作伙伴计划</a>
+            <!--                 <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/THIRDECOSYSTEM">第三方生态系统</a>
+                <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/UNIVERSITYDESCRIPTION">STM32大学计划</a> -->
+            <a href="https://www.stmcu.com.cn/Mobile/ArticleCat/cat_code/FANS">STM32会员分享</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt><a href="javascript:;" style="text-decoration: none;">开发者社区</a></dt>
+        <dd>
+            <a target="_blank" href="https://www.st.com.cn/content/st_com/zh/stm32-mcu-developer-zone.html?icmp=tt32268_cc_lnkon_apr2023">STM32 MCU开发者社区</a>
+            <a target="_blank" href="https://www.st.com.cn/content/st_com/zh/stm32-mpu-developer-zone.html?icmp=tt32302_cc_lnkon_apr2023">STM32 MPU 开发者社区</a>
+        </dd>
+    </dl>
+</div>      </div>
+    </div>
+  </div>
+  <script>
+    function search_mobile_form_validate() {
+      var msg = '';
+      if ($('#mobile_search_keywords').val() == '') {
+        msg += '请输入搜索关键字\n';
+      }
+      if (msg != '') {
+        alert(msg);
+        return false;
+      } else {
+        $('#mobile-search-form').submit();
+      }
+    }
+    $(function() {
+      (function() {
+        var isClick = false;
+
+        function bodyStatus(status) {
+          status = status ? 'hidden' : 'visible';
+          $('html, body').css('overflow', status);
+        }
+        $('.menu-btn-click').click(function() {
+          if (isClick) {
+            $('#menuModal').hide();
+          } else {
+            $('#menuModal').show();
+          }
+          isClick = !isClick;
+          bodyStatus(isClick);
+        });
+      })();
+
+      $('#dropdowner').click(function() {
+        var $this = $(this);
+        $('#backdrop').show();
+        $(this).find('.dropdown-menu').show();
+      })
+      $('#backdrop').click(function(e) {
+        e.stopPropagation();
+        $(this).hide();
+        $('#dropdowner').find('.dropdown-menu').hide();
+      })
+    })
+  </script>
+</header><div class="top2">
+    <div id="menu_c" style="display: block;">
+    <div class="menu_c">
+                    <ul _t_nav="head56" style="display:none;" id="head56">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/aboutst"
+                                       class="dbt">关于ST</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/aboutstmcu"
+                                       class="dbt">关于STM32</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/mission"
+                                       class="dbt">网站使命</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/news"
+                                       class="dbt">新闻中心</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/mkt_info"
+                                       class="dbt">市场资讯</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head61" style="display:none;" id="head61">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/Article/ArticleCat/cat_code/PRODUCTSTM32"
+                                       class="dbt">STM32 MCU</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Article/ArticleCat/cat_code/PRODUCTSTM32Wireless"
+                                       class="dbt">STM32 Wireless</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Article/ArticleCat/cat_code/PRODUCTSTM32MPU"
+                                       class="dbt">STM32 MPU</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Article/ArticleCat/cat_code/PRODUCTSTM8"
+                                       class="dbt">STM8 MCU</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head371" style="display:none;" id="head371">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/function-safety"
+                                       class="dbt">功能安全</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/function-GUI"
+                                       class="dbt">GUI（人机界面）</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/Motor-control"
+                                       class="dbt">电机控制</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/ai"
+                                       class="dbt">人工智能(AI)</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/Wireless"
+                                       class="dbt">无线连接</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/digital_power"
+                                       class="dbt">数字电源</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/information-security-OVERVIEW"
+                                       class="dbt">信息安全</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/app/cloud"
+                                       class="dbt">云连接</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head62" style="display:none;" id="head62">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/document/document"
+                                       class="dbt">芯片文档</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/firmware_software/firmware_software"
+                                       class="dbt">固件和软件</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/evaluation_development_board/evaluation_development_board"
+                                       class="dbt">评估开发板</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/development_tools/development_tools"
+                                       class="dbt">硬件开发工具</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/localization_document/localization_document"
+                                       class="dbt">中文译文</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/LAT/LAT"
+                                       class="dbt">实战经验</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/training/training"
+                                       class="dbt">培训课件</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/video"
+                                       class="dbt">视频</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head63" style="display:none;" id="head63">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/summit2025"
+                                       class="dbt">STM32峰会</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/summitontour2024"
+                                       class="dbt">全国研讨会</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/Meeting/Newest"
+                                       class="dbt">技术培训</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/summitontour2024"
+                                       class="dbt">最新活动</a>
+                                                                        <dl>
+                                                                                        <dd>
+                                                    <a href="https://www.stmcu.com.cn/exhibition" >展览与会议</a>
+                                                </dd>
+                                                                                    </dl>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/eventarchive"
+                                       class="dbt">活动回顾</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/2022techweek?para=stm32_site&utm_medium=referral&utm_source=stm32_site&utm_campaign=techweek_2022"
+                                       class="dbt">STM32线上技术周</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head74" style="display:none;" id="head74">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/university/course"
+                                       class="dbt">精品课程</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/university/train"
+                                       class="dbt">师资培训</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/contest"
+                                       class="dbt">大学生竞赛</a>
+                                                                        <dl>
+                                                                                        <dd>
+                                                    <a href="https://www.stmcu.com.cn/contest/574" >全国大学生嵌入式大赛</a>
+                                                </dd>
+                                                                                    </dl>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/arm"
+                                       class="dbt">创新基地</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/university/osp"
+                                       class="dbt">开源项目</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/university/tnp"
+                                       class="dbt">人才认证</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head64" style="display:none;" id="head64">
+                                                    <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-stm32wb"
+                                       class="dbt">芯片系列</a>
+                                                                        <dl>
+                                                                                        <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-stm32wb" >STM32WB</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-STM32G4" >STM32G4</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-STM32H7" >STM32H7</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-STM32U5" >STM32U5</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-STM32L5-entry" >STM32L5</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/chip/chipfamily-STM32G0" >STM32G0</a>
+                                                </dd>
+                                                                                    </dl>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/ecosystem/Cube/Cube-introduction"
+                                       class="dbt">Cube开发工具</a>
+                                                                        <dl>
+                                                                                        <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/Cube-introduction" >Cube概览</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STM32cubemx" >STM32CubeMX</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STMCUFinder" >ST MCU Finder</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STM32CubeProg" >STM32CubeProg</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STM32CubeMonitor" >STM32CubeMonitor</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STM32CubeIDE" >STM32CubeIDE</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STM32Cubepackage" >STM32Cube Packages</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/ecosystem/Cube/STM32CubeExpansionPackages" >STM32Cube Expansion Packages</a>
+                                                </dd>
+                                                                                    </dl>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/design"
+                                       class="dbt">合作伙伴解决方案</a>
+                                                                        <dl>
+                                                                                        <dd>
+                                                    <a href="https://www.stmcu.com.cn/categorycloud" >云接入</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/componentsmodules" >组件与模块</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/embeddedsoftware" >嵌入式软件</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/hardwaredevelopmenttools" >硬件开发工具</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/engineeringservice" >工程技术服务</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/Article/ArticleCat/cat_code/categorysoftwaretools" >软件开发工具</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/Article/ArticleCat/cat_code/categoryTraining" >培训</a>
+                                                </dd>
+                                                                                    </dl>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.stmcu.com.cn/partners"
+                                       class="dbt">中国合作伙伴计划</a>
+                                                                        <dl>
+                                                                                        <dd>
+                                                    <a href="https://www.stmcu.com.cn/partnerintroduce" >中国合作伙伴认证介绍</a>
+                                                </dd>
+                                                                                                <dd>
+                                                    <a href="https://www.stmcu.com.cn/partnerapply" >申请加入中国合作伙伴计划</a>
+                                                </dd>
+                                                                                    </dl>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.st.com/content/st_com/zh/contact-us.html"
+                                       class="dbt">ST销售和分销商</a>
+                                                                    </li>
+                                                </ul>
+                                <ul _t_nav="head576" style="display:none;" id="head576">
+                                                    <li>
+                                    <a target="_blank" href="https://www.st.com.cn/content/st_com/zh/stm32-mcu-developer-zone.html?icmp=tt32268_cc_lnkon_apr2023"
+                                       class="dbt">STM32 MCU开发者社区</a>
+                                                                    </li>
+                                                                <li>
+                                    <a target="_blank" href="https://www.st.com.cn/content/st_com/zh/stm32-mpu-developer-zone.html?icmp=tt32302_cc_lnkon_apr2023"
+                                       class="dbt">STM32 MPU 开发者社区</a>
+                                                                    </li>
+                                                                <li>
+                                    <a  href="https://www.st.com.cn/content/st_com/zh/st-edge-ai-suite.html?icmp=tt39369_cc_prom_jun2024"
+                                       class="dbt">意法半导体边缘AI套件</a>
+                                                                    </li>
+                                                </ul>
+                        <div class="clear"></div>
+    </div>
+<!--    <a href="javascript:void(0);" id="menu_gb" title="收起">-->
+<!--        <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>-->
+<!--    </a>-->
+</div>
+</div>
+
+<link rel="stylesheet" href="https://static.stmcu.com.cn/applications/Home/css/error_page.css" />
+
+<div>
+<div class="bg_404">
+    <div class="error_content">
+        <p class="theme_404">抱歉，页面未找到</p>
+        <div class="sq1">很抱歉，您请求的页面或文档不可用，访问的链接已经失效。<span style="color: #3CB4E6;" id="send_mobile_captcha" >10</span>&nbsp;秒后将自动进入首页。</div>
+        <li class="l1"><a href="//stmcu.com.cn" class="an_lan">点击跳转</a></li>
+    </div>
+</div>
+</div>
+
+<script>
+    var countdown=9;
+    function settime() {
+
+        if (countdown == 0) {
+
+            //$('#send_mobile_captcha').attr("disabled",false);
+            //$('#send_mobile_captcha').html("");
+            document.getElementById('send_mobile_captcha').innerHTML='00';
+            window.clearTimeout(t);
+            window.location.href='https://stmcu.com.cn/';
+
+        /*	contains(arr, 2);//返回true
+            contains(arr, 4);//返回false  */
+
+            countdown = 9;
+            return;
+        } else {
+            //$('#send_mobile_captcha').attr("disabled", true);
+            //$('#send_mobile_captcha').html( countdown );
+            //document.getElementById('send_mobile_captcha').innerHTML='';
+
+            document.getElementById('send_mobile_captcha').innerHTML='0'+countdown;
+
+            countdown--;
+        }
+        t = window.setTimeout('settime()',1000)
+        }
+
+        window.onload = function () { settime();  }
+</script>
+
+
+
+<div class="foot1">
+  <div class="cd_f">
+    <!--Wx And Mcu-->
+    <div class="common-wx-wrap pull-left clearfix" style="width:68px;margin-right:60px;padding-top: 38px;margin-left:0;">
+      <div class="wx-wx-box foot-wx-box" style="background-color:#fff;z-index:1;margin:0 8px 10px 0;">
+        <div class="wx-outer">
+          <img src="https://static.stmcu.com.cn/applications/Home/images/common/wechat_code.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="stmcu微信公众号二维码">
+        </div>
+      </div>
+      <div class="wx-mcu-box foot-mcu-box" style="z-index:1;background-position:0 0;margin:0 0 10px 0;">
+        <div class="wx-outer">
+          <img src="https://static.stmcu.com.cn/applications/Home/images/common/wx-download.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="MCU微信公众号二维码">
+        </div>
+      </div>
+      <div class="wx-video-box" style="z-index:0;background-image:url('https://static.stmcu.com.cn/applications/Home/public/img/common/wxvideohover.png');margin:0 8px 0 0;">
+        <div class="wx-outer">
+          <img src="https://static.stmcu.com.cn/applications/Home/images/common/STM32wxvideo.png?v=20220303" alt="STM32视频号二维码">
+        </div>
+      </div>
+      <a href="//space.bilibili.com/2100019006?from=search&seid=6727742697039098458&spm_id_from=333.337.0.0" style="display:block;
+              float: left;
+              width: 30px;
+              height: 30px;
+              border-radius: 5px;
+              cursor: pointer;
+              z-index: 8;
+              background-image:url('https://static.stmcu.com.cn/applications/Home/public/img/common/wxvideohover.png')
+              position: relative;" target="_blank">
+        <div class="bilibili-box" style="background-image:url('https://static.stmcu.com.cn/applications/Home/public/img/common/bilibilihover.png')">
+        </div>
+      </a>
+    </div>
+    <ul class="clearfix pull-left" style="overflow:hidden;">
+      <li>
+        <a href="/about"><b>关于STM32</b></a>
+        <a href="https://www.stmcu.com.cn/aboutst">关于ST</a>
+        <a href="https://www.stmcu.com.cn/aboutstmcu">关于ST MCU</a>
+        <a href="https://www.stmcu.com.cn/mission">网站使命</a>
+        <a href="https://www.stmcu.com.cn/news">新闻中心</a>
+        <a href="https://www.stmcu.com.cn/Sitemap/index">网站地图</a>
+      <li>
+        <a href="/product"><b>产品</b></a>
+        <a href="https://www.stmcu.com.cn/stm32">STM32 MCU</a>
+        <a href="https://www.stmcu.com.cn/Product/pro_detail/PRODUCTSTM32Wireless/product">STM32 Wireless</a>
+        <a href="https://www.stmcu.com.cn/Product/pro_detail/PRODUCTSTM32MPU/product">STM32 MPU</a>
+        <a href="https://www.stmcu.com.cn/stm8">STM8 MCU</a>
+      </li>
+      <li>
+        <a href="/design_resource"><b>设计资源</b></a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/document/document">芯片文档</a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/firmware_software/firmware_software">固件和软件</a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/evaluation_development_board/evaluation_development_board">评估开发板</a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/development_tools/development_tools">硬件开发工具</a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/localization_document/localization_document">中文译文</a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/LAT/LAT">实战经验</a>
+        <a href="https://www.stmcu.com.cn/Designresource/list/STM32 MCU/training/training">培训课件</a>
+      </li>
+      <li>
+        <a href="https://www.stmcu.com.cn/summit2025"><b>培训与活动</b></a>
+        <a href="https://www.stmcu.com.cn/summit2025">STM32峰会</a>
+        <a href="https://www.stmcu.com.cn/summitontour2024">全国研讨会</a>
+        <a href="https://www.stmcu.com.cn/Meeting/Newest">技术培训</a>
+        <a href="https://www.stmcu.com.cn/summit2025">最新活动</a>
+        <a href="https://www.stmcu.com.cn/eventarchive">活动回顾</a>
+      </li>
+      <li>
+        <a href="https://www.stmcu.com.cn/university"><b>ST中国大学计划</b></a>
+        <a href="https://www.stmcu.com.cn/university/course">精品课程</a>
+        <a href="https://www.stmcu.com.cn/university/train">师资培训</a>
+        <a href="https://www.stmcu.com.cn/contest">大学生竞赛</a>
+        <a href="https://www.stmcu.com.cn/arm">创新基地</a>
+        <a href="https://www.stmcu.com.cn/university/osp">开源项目</a>
+      </li>
+      <li>
+        <a href="/ecosystem"><b>生态系统</b></a>
+        <a href="https://www.stmcu.com.cn/sttools">ST官方工具</a>
+        <a href="https://www.stmcu.com.cn/design">合作伙伴解决方案</a>
+        <!-- <a href="https://www.stmcu.com.cn/design">参考设计</a>
+        <a href="https://www.stmcu.com.cn/thirdecosystem">第三方生态系统</a>
+        <a href="https://www.stmcu.com.cn/university">STM32大学计划</a> -->
+        <a href="https://www.stmcu.com.cn/fans">STM32学习分享</a>
+      </li>
+      <li>
+        <a href="https://www.stmcu.com.cn/member"><b>会员中心</b></a>
+        <a href="https://www.stmcu.com.cn/User/UserProfile">个人资料管理</a>
+        <a href="https://www.stmcu.com.cn/User/MyFav">我的收藏</a>
+        <a href="https://www.stmcu.com.cn/User/MyPoint">积点兑换</a>
+        <a href="https://www.stmcu.com.cn/User/MyActive">我的活动</a>
+        <a href="https://www.stmcu.com.cn/User/MyProject">分享上传</a>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="foot2">
+  <div class="footer-wrap">
+    <div class="m-show-footer" id="wxFooter">
+      <!--Wx And Mcu-->
+      <div class="common-wx-wrap clearfix">
+        <div class="wx-mcu-box wx-box">
+          <div class="wx-outer">
+            <img src="https://static.stmcu.com.cn/applications/Home/images/common/wx-download.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="MCU微信公众号二维码">
+          </div>
+          <div class="wx-modal"></div>
+        </div>
+        <div class="wx-wx-box wx-box">
+          <div class="wx-outer">
+            <img src="https://static.stmcu.com.cn/applications/Home/images/common/wechat_code.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="stmcu微信公众号二维码">
+          </div>
+          <div class="wx-modal"></div>
+        </div>
+        <div class="wx-video-box wx-box">
+          <div class="wx-outer">
+            <img src="https://static.stmcu.com.cn/applications/Home/images/common/STM32wxvideo.png?x-oss-process=image/auto-orient,1/quality,q_90/format,jpeg" alt="stmcu微信公众号二维码">
+          </div>
+          <div class="wx-modal"></div>
+        </div>
+        <a href="//space.bilibili.com/2100019006?from=search&seid=6727742697039098458&spm_id_from=333.337.0.0"
+          style="width: 40px;
+                height: 40px;
+                z-index: inherit;
+                display: block;
+                float:left;
+                margin:0 5px;
+                border-radius: 5px;
+                position:relative;">
+          <div class="bilibili-box wx-box">
+          </div>
+        </a>
+      </div>
+      <!--Shop-->
+      <ul class="common-shop clearfix">
+        <!-- <li>
+          <img class="icon-buy-tip-mobile" src="/applications/Home/public/img/icon-buy.svg">
+          <div class="wx-shop wx-box" href="javascript:;">
+            <span>天猫旗舰店</span>
+            <div class="wx-outer">
+              <img src="https://www.stmcu.com.cn/applications/Home/public/img/common/wx-shop.png?v1" alt="天猫旗舰店二维码">
+            </div>
+            <div class="wx-modal"></div>
+            </a>
+        </li> -->
+        <!-- <li>
+          <img class="icon-buy-tip-mobile" src="/applications/Home/public/img/icon-buy.svg">
+          <a style="font-size: 4vw;line-height: 8vw;width:auto;" href="/Index/jumpToJD?utm_source=stmcu&utm_medium=click&utm_campaign=jddian">
+            <span>京东生态店</span>
+          </a>
+        </li> -->
+        <!-- <li>
+          <img class="icon-buy-tip-mobile" src="/applications/Home/public/img/icon-buy.svg">
+          <a style="font-size: 4vw;line-height: 8vw;width:auto;" href="https://www.stmcu.com.cn/Index/shop">
+            在线购买
+          </a>
+        </li> -->
+        <li>
+          <a style="font-size: 4vw;line-height: 8vw;width:auto;" href="https://shequ.stmicroelectronics.cn">
+            ST中文论坛
+          </a>
+        </li>
+      </ul>
+    </div>
+    <ul class="clearfix">
+      <li>MCU技术支持邮箱：<a class="m-email" href="mailto:mcu.china@st.com">mcu.china@st.com</a> | MPU技术支持邮箱：<a class="m-email" href="mailto:mpu.china@st.com">mpu.china@st.com</a></li>
+      <li><i class="m-hide">版权所有</i> ©2015-2025 STMicroelectronics</li>
+      <li><span>意法半导体（中国）投资有限公司</span></li>
+      <li><span><a href="https://beian.miit.gov.cn" target="_blank">沪ICP备12005910号-2</a></span></li>
+      <li><a href="https://www.stmcu.com.cn/termsofuse">使用条款</a> | <a href="https://www.stmcu.com.cn/registeragree">隐私条款</a>
+        | <a href="https://www.stmcu.com.cn/contactus">联系我们</a> | <a href="https://www.stmcu.com.cn/Sitemap/index">网站地图</a></li>
+    </ul>
+  </div>
+</div>
+<script>
+  $(function() {
+    $('#wxFooter').find('.wx-box').on('click', function(e) {
+      $(this).find('.wx-outer').addClass('wx-outer-show');
+      $(this).find('.wx-modal').show();
+      e.stopPropagation();
+    })
+    $('#wxFooter .wx-modal').on('click', function(e) {
+      $(this).hide();
+      $(this).prev().removeClass('wx-outer-show');
+      e.stopPropagation();
+    })
+  })
+</script><style>
+  .wx_loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0)
+  }
+
+  .wx_loading_inner {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: -48px;
+    width: 140px;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 58px 0 10px 0
+  }
+
+  .wx_loading_icon {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -16px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    -webkit-animation: gif 1s infinite linear;
+    animation: gif 1s infinite linear;
+    clip: rect(0 auto 12px 0)
+  }
+
+  @keyframes gif {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes gif {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+</style>
+
+<div class="wx_loading" id="wxloading" style="display: none;">
+  <div class="wx_loading_inner">
+    <i class="wx_loading_icon"></i>
+    请求加载中...
+  </div>
+</div>
+<div class="modal fade bs-modal-lg" id="ajax_modal_lg" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    </div>
+  </div>
+</div><script src="https://static.stmcu.com.cn/applications/Home/public/js/baidu-share.js"></script>
+
+<script type="text/javascript">
+  
+  $(function() {
+    $('.menu').on('click', '.no_path', function() {
+      let $this = $(this);
+      if ($this.hasClass('off')) {
+        $(this).removeClass('off').addClass('on');
+        return;
+      }
+
+      if ($this.hasClass('on')) {
+        $(this).removeClass('on').addClass('off');
+        return;
+      }
+    });
+
+    $(".cd_f ul").css("width", "calc(100% - 143px)")
+    $(".cd_f li:not(:last-child)").css("width", "15.08%");
+    $(".cd_f li:last-child").css("width", "8.58%");
+    //微信
+    $(".wx").hover(function() {
+      $(this).find("img").css("display", "block");
+    }, function() {
+      $(this).find("img").css("display", "none");
+    });
+    $(function() {
+      var qcloud = {};
+      $('[_t_nav]').hover(function() {
+        var _nav = $(this).attr('_t_nav');
+        clearTimeout(qcloud[_nav + '_timer']);
+        qcloud[_nav + '_timer'] = setTimeout(function() {
+          $('[_t_nav]').each(function() {
+            $(this)[_nav == $(this).attr('_t_nav') ? 'addClass' : 'removeClass']('on');
+            $(this)[_nav == $(this).attr('_t_nav') ? 'removeClass' : 'addClass']('off');
+          });
+          $('#' + _nav).stop(true, true).slideDown(200);
+        }, 150);
+      }, function() {
+        var _nav = $(this).attr('_t_nav');
+        clearTimeout(qcloud[_nav + '_timer']);
+        qcloud[_nav + '_timer'] = setTimeout(function() {
+          $('[_t_nav]').removeClass('on').addClass('off');
+          $('#' + _nav).stop(true, true).slideUp(200);
+        }, 150);
+      });
+
+    });
+    $('#small-pic').hover(
+      function() {
+        $('#big-pic').show();
+      },
+      function() {
+        $('#big-pic').hide();
+      }
+    );
+
+
+    //软件包下拉菜单
+    $(".lm7").hover(function() {
+      $(this).find("ul").css("display", "block");
+    }, function() {
+      $(this).find("ul").css("display", "none");
+    });
+
+    //软件包下拉菜单
+    $("#design-content").on('click', 'a.an_off,a.an_on', function() {
+      var ab = $(this).attr('id');
+      if ($("#n_" + ab).css("display") == "none") {
+        $(this).removeClass("an_off");
+        $(this).addClass("an_on");
+        $("#n_" + ab).slideDown("slow");
+        $("#w_" + ab).slideUp("slow");
+        $('#header-' + ab).find('.l1 > a,.l3 > a,.l5 > a,.l7 > a,.updated-time > a').addClass(normal_css);
+      } else {
+        $(this).removeClass("an_on");
+        $(this).addClass("an_off");
+        $("#n_" + ab).slideUp("slow");
+        $("#w_" + ab).slideDown("slow");
+        $('#header-' + ab).find('.l1 > a,.l3 > a,.l5 > a,.l7 > a,.updated-time > a').removeClass(normal_css).removeClass(asc_css)
+          .removeClass(desc_css);
+      }
+    });
+
+
+    $('img').each(function() {
+      if ($(this).attr('src') == '' || typeof($(this).attr('src')) == 'undefined' || $(this).attr('src') ==
+        'unknown') {
+        $(this).attr('src', 'https://static.stmcu.com.cn/upload/nopic.png');
+      }
+    });
+  });
+
+  function search_form_validate() {
+    var msg = '';
+    if ($('#search_keywords').val() == '') {
+      msg += '请输入搜索关键字\n';
+    }
+    if (msg != '') {
+      alert(msg);
+      return false;
+    } else {
+      $('#search-form').submit();
+    }
+  }
+
+  function add_user_fav(fav_id, fav_type, fav_table, token) {
+    $.ajax({
+      url: 'https://www.stmcu.com.cn/User/add_fav',
+      data: {
+        fav_id: fav_id,
+        fav_type: fav_type,
+        fav_table: fav_table,
+        token: token ,csrf_token:"a7b2ace97311e217313d244dcfdab355"      },
+      type: 'post',
+      dataType: 'json',
+      beforeSend: function() {
+        $('#wxloading').show();
+      },
+      success: function(data) {
+        $('#wxloading').hide();
+        if (data.status == 0) {
+          alert(data.res);
+        } else {
+          alert(data.error);
+        }
+      }
+    });
+  }
+
+  function tanchu(n) {
+    if ($("#" + n).css("display") == "none") {
+      $("#" + n).css("display", "block");
+    } else {
+      $("#" + n).css("display", "none");
+    }
+  }
+</script>
+
+<script type="text/javascript">
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-52882455-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+  var normal_css = 'px_k'
+  var asc_css = 'px_up';
+  var desc_css = 'px_down';
+
+  function sort(from_obj, content_id, pro_cat, pro_token, design_cat, design_token, sort_field, apply_type, training_group = '') {
+    apply_type = apply_type || '';
+    var sort_css = $(from_obj).attr('class');
+    var sort_str = '';
+    if (sort_css == normal_css) {
+      sort_str = 'DESC';
+    } else if (sort_css == asc_css) {
+      sort_str = 'DESC';
+    } else {
+      sort_str = 'ASC';
+    }
+
+    $(from_obj).removeClass(sort_css).addClass((sort_str == 'ASC' ? asc_css : desc_css));
+
+    $.ajax({
+        url: 'https://www.stmcu.com.cn/Designresource/sort_design_resource',
+        data: {
+          sort: sort_str,
+          sort_field: sort_field,
+          filter_pro_cat: pro_cat,
+          filter_pro_token: pro_token,
+          filter_design_cat: design_cat,
+          filter_application: apply_type,
+          filter_training_group: training_group,
+          filter_design_token: design_token ,csrf_token:"a7b2ace97311e217313d244dcfdab355",
+        },
+        type: 'post',
+        dataType: 'json',
+        beforeSend: function() {
+          $('#wxloading').show();
+        },
+        success: function(data) {
+          $('#wxloading').hide();
+          if (data.status == 0) {
+            $('#' + content_id).empty().append(data.res);
+            renderQrcode(content_id);
+            bindTrigger(content_id);
+      }
+    }
+  });
+  }
+</script>
+
+<script type="text/javascript">
+  if (typeof _satellite !== 'undefined') {
+    _satellite.pageBottom();
+  }
+</script>
+
+</body>
+
+</html>

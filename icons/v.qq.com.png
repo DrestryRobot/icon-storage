@@ -1,0 +1,36 @@
+{
+  "icons": [
+    {
+      "src": "https://media-img.puui.qpic.cn/media_img/0/lena/PICh4u96G_512_512/0",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://media-img.puui.qpic.cn/media_img/0/lena/PICjo1Bxi_384_384/0",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://media-img.puui.qpic.cn/media_img/0/lena/PICfwl0cd_256_256/0",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "https://media-img.puui.qpic.cn/media_img/0/lena/PICBtJF6a_192_192/0",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://media-img.puui.qpic.cn/media_img/0/lena/PICrJFvjB_128_128/0",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "name": "腾讯视频网页版",
+  "short_name": "腾讯视频",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["minimal-ui"],
+  "description": "腾讯视频致力于打造中国领先的在线视频媒体平台，以丰富的内容、极致的观看体验、便捷的登录方式、多平台无缝应用体验以及快捷分享的产品特性，主要满足用户在线观看视频的需求"
+}

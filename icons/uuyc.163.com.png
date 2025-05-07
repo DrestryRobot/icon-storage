@@ -1,0 +1,936 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>网易UU远程（原GameViewer远程）_专业游戏串流远程控制软件</title>
+	<meta name="from" content="git:UUYC/uuyc-website-24v1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="网易UU远程,GameViewer远程,游戏串流,远程控制,远程控制电脑,远程控制桌面,远程玩游戏,远程办公,无线副屏">
+    <meta name="description" content="网易UU远程（原GameViewer远程），是一款由网易出品的专业游戏串流远程控制软件，支持手机、平板、电脑、Mac、掌机远程控制电脑，不仅能满足你远程办公、远程协助等需求，超低延迟、高清高帧、操控自如、轻松拓展副屏、一键公网串流等特色功能更能给你带来极致的游戏串流体验！">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no,minimal-ui,user-scalable=0,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msvalidate.01" content="BDCEC246D23489155B907F81E190126C">
+    <meta name="sogou_site_verification" content="yKNhKRLhzP">
+    <meta name="360-site-verification" content="168b8c5fb29c95895c66184a73fb5bbf">
+    <meta name="baidu-site-verification" content="codeva-HqMdOTCWwA">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="网易UU远程（原GameViewer远程）_专业游戏串流远程控制软件">
+    <meta name="twitter:description" content="网易UU远程可通过手机、平板、电脑、Mac、掌机等设备远程控制电脑畅玩3A大作，让你随时随地享受远程玩游戏的乐趣。">
+    <meta name="twitter:image" content="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_23c853e7.jpg">
+
+    <meta property="og:url" content="https://uuyc.163.com/">
+    <meta property="og:title" content="网易UU远程（原GameViewer远程）_专业游戏串流远程控制软件">
+    <meta property="og:description" content="网易UU远程可通过手机、平板、电脑、Mac、掌机等设备远程控制电脑畅玩3A大作，让你随时随地享受远程玩游戏的乐趣。">
+    <meta property="og:image" content="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_23c853e7.jpg">
+
+    <link rel="dns-prefetch" href="https://uuyc.res.netease.com">
+    <!-- media css -->
+    <style type="text/css">
+    html {
+        font-size: 75px;
+    }
+</style>
+    <link rel="stylesheet" href="https://nie.res.netease.com/comm/js/nie/ref/css/swiper.3.4.1.css">
+    <style type="text/css">blockquote,body,button,caption,dd,div,dl,dt,fieldset,figure,form,h1,h2,h3,h4,h5,h6,hr,html,input,legend,li,menu,ol,p,pre,table,td,textarea,th,ul{margin:0;padding:0}abbr,body,fieldset,html,iframe,img{border:0}textarea{overflow:auto;resize:none}input{outline:none}input:-internal-autofill-previewed,input:-internal-autofill-selected{-webkit-text-fill-color:#fff}input:-webkit-autofill{-webkit-box-shadow:inset 0 0 0 13.33333rem transparent;-webkit-transition:background-color 5000s ease-in-out 0s;transition:background-color 5000s ease-in-out 0s}table{border-collapse:collapse;border-spacing:0}a,button{cursor:pointer}button{background:none}em,h1,h2,h3,h4,h5,h6{font-style:normal;font-weight:400}b,strong{font-style:normal}a,a:hover{text-decoration:none}body,button,input,textarea{color:rgba(60,60,67,.68)}body,html{background:#f2f4f8;min-height:100%;width:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeSpeed;-webkit-tap-highlight-color:transparent;font-family:-apple-system,BlinkMacSystemFont,PingFang SC,Hiragino Sans GB,Helvetica Neue,STHeiti,Microsoft Yahei,Tahoma,sans-serif;font-weight:400;line-height:1.5}::-webkit-input-placeholder{color:#454545}:-moz-placeholder,::-moz-placeholder{color:#454545}:-ms-input-placeholder{color:#454545}a,button,div,input,select,textarea{border:0;margin:0;outline:none;padding:0}select{appearance:none;-moz-appearance:none;-webkit-appearance:none}.display-flex{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.display-flex,.display-flex-start{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.flex-center{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.flex-space-between{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.flex-1{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.b-content-wrap{max-width:17.06667rem}.b-content-wrap,.b-navcontent-wrap{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto;padding:0 .53333rem}.b-navcontent-wrap{max-width:19.73333rem}.b-border-box{-webkit-box-sizing:border-box;box-sizing:border-box}.page_bartips{background:#384e9f;height:.50667rem;width:100%;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;display:none;justify-content:center;position:relative}.page_bartips.show{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.page_bartips .tipbar_close{border-radius:.05333rem;position:absolute;right:.2rem;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.page_bartips .tipbar_close i{background:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/tips_close_c26310af.png) no-repeat;background-size:100%;display:block;height:.32rem;width:.32rem}.page_bartips .tipbar_close:hover{background:rgba(47,47,48,.2)}.page_bartips .bartips_link{color:#fff;display:block;font-size:.18667rem;padding-left:.4rem;position:relative;-webkit-transition:color .3s ease;transition:color .3s ease}.page_bartips .bartips_link:after{background:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/toptips_ico_d9936440.png) no-repeat;background-size:100%;content:"";height:.24rem;left:0;position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transition:all .3s ease;transition:all .3s ease;width:.24rem}.page_bartips .bartips_link:hover{color:#03e7ff}.page_bartips .bartips_link:hover:after{background:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/toptips_ico_h_f3d877c5.png) no-repeat;background-size:100%}.page_bartips .bartips_link:active{color:#fff}.page_bartips .bartips_link:active:after{background:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/toptips_ico_d9936440.png) no-repeat;background-size:100%}.top-bar{right:0;top:0;z-index:12}.top-bar,.top-bar__mask{left:0;position:fixed;width:100%}.top-bar__mask{-webkit-backdrop-filter:blur(.13333rem);backdrop-filter:blur(.13333rem);background:rgba(0,0,0,.5);bottom:0;display:none;height:100%;z-index:11}.top-bar__mask.show{display:block}.top-bar__bd{height:.85333rem}.top-bar__wrap{background:#09090a;border-bottom:.01333rem solid rgba(47,47,48,.1);width:100%}.top-bar__item{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;margin:0 .29333rem;position:relative}.top-bar__item.top-bar__item_hide{display:none}.top-bar__item.show{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex}.top-bar__item.actived .top-bar__item-title,.top-bar__item.actived .top-bar__item-title:hover{color:#fff}.top-bar__item.nav_hover{cursor:pointer}.top-bar__item.nav_hover.active{color:rgba(242,242,247,.55)}.top-bar__item.nav_hover.active .top-bar__arrow3{-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg)}.top-bar__item-title{color:rgba(242,242,247,.7);font-size:.18667rem;position:relative;-webkit-transition:color .3s ease;transition:color .3s ease;white-space:nowrap}.top-bar__item-title.expended .top-bar__arrow{-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg)}.top-bar__item-title:hover{color:rgba(242,242,247,.55)}.top-bar__item-title:active{color:#fff}.top-bar__expend{left:0;opacity:0;position:fixed;top:.85333rem;-webkit-transform:translateY(-140%);-ms-transform:translateY(-140%);transform:translateY(-140%);-webkit-transition:transform .3s ease-in-out;transition:transform .3s ease-in-out;width:100%;z-index:-2}.top-bar__expend.showbanner{top:1.36rem}.top-bar__expend.expended{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}.top-bar__expend.show{opacity:1}.top-bar__expend li{position:relative}.top-bar__expend a{color:#272729;font-size:.24rem;line-height:.53333rem;padding:0 .26667rem}.top-bar__expend a:hover{background-color:rgba(0,0,0,.1)}.top-bar__expend a:active{opacity:.4}.top-bar__expend a.disabled{color:hsla(0,0%,100%,.5)}.top-bar__expend a.actived{color:#0047ff}.top-bar__expend a.actived:after{background-size:100% auto;content:"";height:.21333rem;position:absolute;right:.21333rem;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:.21333rem}.top-bar__download,.top-bar__download:before{border-radius:.05333rem}.top-bar__download-wrap{border-radius:.05333rem;font-size:.18667rem;height:.42667rem;margin-left:.4rem;min-width:1.17333rem}.top-bar.is-expended .top-bar__wrap,.top-bar.is-pinned .top-bar__wrap{background:#09090a}.top-bar__toggle{cursor:pointer;display:none;height:.34667rem;margin-left:.29333rem;width:.34667rem}.top-bar__toggle-line{background:#fff;display:block;height:.02667rem;margin-top:.06667rem;-webkit-transition:.5s cubic-bezier(.16,1,.3,1);transition:.5s cubic-bezier(.16,1,.3,1);width:84%}.top-bar__toggle-line:first-of-type{-webkit-transform-origin:bottom right;-ms-transform-origin:bottom right;transform-origin:bottom right}.top-bar__toggle-line:nth-of-type(3){-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right}.top-bar__toggle.expended .top-bar__toggle-line:first-of-type{-webkit-transform:rotate(-45deg) translateY(-.02667rem);-ms-transform:rotate(-45deg) translateY(-.02667rem);transform:rotate(-45deg) translateY(-.02667rem)}.top-bar__toggle.expended .top-bar__toggle-line:nth-of-type(2){opacity:0;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0)}.top-bar__toggle.expended .top-bar__toggle-line:nth-of-type(3){-webkit-transform:rotate(45deg) translateY(.01333rem);-ms-transform:rotate(45deg) translateY(.01333rem);transform:rotate(45deg) translateY(.01333rem)}.top-bar__logo{display:block;height:.48rem;margin-left:0}.top-bar__logo img{display:block}.top-bar__logo .Jlogo{height:.48rem;width:auto}.top-bar__arrow{height:.21333rem;width:.21333rem}.top-bar__arrow1{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);-webkit-transition:transform .3s ease;transition:transform .3s ease}.top-bar__arrow2,.top-bar__arrow3{display:inline-block;height:.18667rem;width:.18667rem}.top-bar__arrow3{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.nav_m_scene{display:none}.sub-nav{background:#373a42;border:.01333rem solid rgba(242,242,247,.15);border-radius:.05333rem;-webkit-box-shadow:0 0 .13333rem rgba(0,0,0,.25);box-shadow:0 0 .13333rem rgba(0,0,0,.25);-webkit-box-sizing:border-box;box-sizing:border-box;min-width:2.93333rem;padding:.10667rem 0}.sub-nav__wrap{display:none;left:50%;margin-left:-1.46667rem;padding-top:.66667rem;position:absolute;top:0}.sub-nav li{line-height:.24rem;list-style-type:none;white-space:nowrap}.sub-nav li:last-child{margin-bottom:0}.sub-nav a{color:#fff;display:block;font-size:.18667rem;font-weight:400;height:.53333rem;line-height:.53333rem;margin:0;padding:0 .21333rem}.sub-nav a.disabled{cursor:default}.sub-nav a.disabled,.sub-nav a.disabled:hover{color:hsla(0,0%,100%,.5)}.sub-nav a:hover{background:hsla(0,0%,100%,.1)}.sub-nav a:active{background:hsla(0,0%,100%,.05)}.nav-expend{left:0;opacity:0;position:absolute;top:100%;-webkit-transform:translateY(-140%);-ms-transform:translateY(-140%);transform:translateY(-140%);width:100%;z-index:1}.nav-expend.expended{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}.nav-expend.show{opacity:1}.nav-expend__wrap{-webkit-backdrop-filter:blur(.8rem);backdrop-filter:blur(.8rem);background:rgba(9,9,10,.8);-webkit-box-shadow:0 .16rem .26667rem 0 rgba(0,0,0,.25);box-shadow:0 .16rem .26667rem 0 rgba(0,0,0,.25);padding:.26667rem 0 .53333rem;position:relative;z-index:2}.nav-expend__box{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:0 auto;max-width:17.17333rem;padding:0 .53333rem}.nav-expend__item .top-bar__arrow{display:none}.nav-expend__item dt{color:#fff;-webkit-flex-shrink:0;font-size:.2rem;font-weight:700;line-height:.32rem;-ms-flex-negative:0;flex-shrink:0;margin-right:.21333rem;white-space:nowrap;width:1.12rem}.nav-expend__item dd{color:rgba(60,60,67,.68);-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;font-size:.21333rem;line-height:.34667rem;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start}.nav-expend__item-title{margin-right:.10667rem}.btn-dl{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;background:-webkit-gradient(linear,left top,right top,from(#03e7ff),to(#06f));background:-webkit-linear-gradient(left,#03e7ff,#06f);background:linear-gradient(90deg,#03e7ff,#06f);justify-content:center;overflow:hidden;position:relative;white-space:nowrap;width:100%}.btn-dl__wrap{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex}.btn-dl:hover{background:-webkit-gradient(linear,left top,right top,from(#a7faff),to(#48a7ff));background:-webkit-linear-gradient(left,#a7faff,#48a7ff);background:linear-gradient(90deg,#a7faff,#48a7ff)}.btn-dl:active{background:-webkit-gradient(linear,left top,right top,from(#00b3eb),to(#0020c9));background:-webkit-linear-gradient(left,#00b3eb,#0020c9);background:linear-gradient(90deg,#00b3eb,#0020c9)}.btn-dl span{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;position:relative;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#fff;-webkit-transition:color .15s cubic-bezier(.455,.03,.515,.955);transition:color .15s cubic-bezier(.455,.03,.515,.955);z-index:1}.nav-scene-box{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.nav-scene-box__title{color:#fff;font-size:.26667rem;font-weight:700;line-height:.37333rem;margin-bottom:.10667rem;text-align:left}.nav-scene-box__desc{border-bottom:.01333rem solid rgba(242,242,247,.15);color:rgba(242,242,247,.7);font-size:.21333rem;line-height:.32rem;margin-bottom:.21333rem;padding-bottom:.21333rem;text-align:left}.nav-strategy{background:hsla(0,0%,100%,.1);border-radius:.10667rem;-webkit-box-sizing:border-box;box-sizing:border-box;margin-left:.26667rem;padding:.26667rem .21333rem;width:3.46667rem}.nav-strategy .nav-slide__dots{line-height:.08rem;position:absolute;top:1.94667rem;width:100%}.nav-strategy .nav-slide__dots span{background:hsla(0,0%,100%,.6);border-radius:.08rem;cursor:pointer;height:.08rem;margin:0 .05333rem;opacity:1;width:.08rem}.nav-strategy .nav-slide__dots span.swiper-pagination-bullet-active{background:#fff;width:.32rem}.nav-strategy dt{font-size:.26667rem;font-weight:700;line-height:.37333rem}.nav-strategy .nav-feature__item-title{background:rgba(89,128,255,.1);border:.01333rem solid rgba(3,231,255,.5);border-radius:.05333rem;-webkit-box-sizing:border-box;box-sizing:border-box;color:#03e7ff;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-flex-shrink:0;font-size:.18667rem;line-height:.29333rem;padding:.04rem .09333rem;width:calc(33.33333% - .05333rem);-ms-flex-negative:0;flex-shrink:0;margin-bottom:.08rem;margin-right:.08rem}.nav-strategy .nav-feature__item-title:nth-child(3n){margin-right:0}.nav-strategy .nav-feature__item-title:last-child{margin-bottom:0;margin-right:0}.nav-strategy .nav-feature__item-title:hover{background:rgba(89,128,255,.1);border-color:rgba(172,247,255,.5);color:#acf7ff}.nav-strategy .nav-feature__item-title:active{background:rgba(89,128,255,.1);border-color:rgba(0,153,169,.5);color:#00b3c6}.nav-feature__title{color:#fff;font-size:.26667rem;font-weight:700;line-height:.37333rem;margin:.37333rem 0 .21333rem}.nav-games{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;position:relative;text-align:center}.nav-games .game-expend__item{border-radius:.10667rem;-webkit-box-sizing:border-box;box-sizing:border-box;height:.69333rem;margin-right:.16rem;padding:0 .10667rem;-webkit-transition:background .3s ease;transition:background .3s ease;width:2.88rem}.nav-games .game-expend__item:hover{background:rgba(242,242,247,.15)}.nav-games .game-expend__item:active{background:hsla(0,0%,100%,.1)}.nav-games .game-expend__item:nth-child(3),.nav-games .game-expend__item:nth-child(4),.nav-games .game-expend__item:nth-child(5){width:1.49333rem}.nav-games .game-expend__item:nth-child(3) img,.nav-games .game-expend__item:nth-child(4) img,.nav-games .game-expend__item:nth-child(5) img{display:none}.nav-games .game-expend__item:nth-child(5){margin-right:0}.nav-games .game-expend__item img{aspect-ratio:1/1;border-radius:.12rem;margin-right:.10667rem;overflow:hidden;width:.48rem}.nav-games .nav-expend__item{margin-bottom:.26667rem}.nav-games .nav-expend__item:last-of-type{margin-bottom:0}.nav-games .nav-games__more{-webkit-box-sizing:border-box;box-sizing:border-box;color:#03e7ff;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;font-size:.21333rem;line-height:.32rem;margin:0 auto;padding:0;position:absolute;right:0;top:.48rem}.nav-games .nav-games__more .top-bar__arrow{display:block}.nav-games .nav-games__more:hover{background:none;color:#acf9ff}.nav-games .nav-games__more:hover .top-bar__arrow{fill:#acf9ff}.nav-games .nav-games__more:active{background:none;color:#0099a9}.nav-games .nav-games__more:active .top-bar__arrow{fill:#0099a9}.game-expend__item-title{display:-webkit-box;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;color:rgba(242,242,247,.7);font-size:.21333rem;line-height:.32rem}.game-expend__item-type{border-radius:.08rem .08rem .08rem 0;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;font-size:.16rem;height:.21333rem;line-height:.21333rem;margin-left:.05333rem;padding:0 .09333rem}.game-expend__item-type[data-type=hot]{background:rgba(235,99,78,.2);border:.01333rem solid rgba(235,99,78,.5);color:#eb634e}.game-expend__item-type[data-type=new]{background:rgba(73,181,126,.2);border:.01333rem solid rgba(73,181,126,.5);color:#49b57e}.nav-slide{border-radius:.05333rem;height:3.06667rem;margin-top:.21333rem;width:3.04rem}.nav-slide .nav-slide__item{display:block;padding:0;position:relative}.nav-slide .nav-slide__item,.nav-slide .nav-slide__item:hover{background:hsla(0,0%,100%,.1)}.nav-slide .nav-slide__item:hover img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}.nav-slide .nav-slide__item .nav-slide__item-img{display:block;overflow:hidden;position:relative}.nav-slide .nav-slide__item .nav-slide__item-img:after{background:-webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.4)));background:-webkit-linear-gradient(top,transparent,rgba(0,0,0,.4));background:linear-gradient(180deg,transparent,rgba(0,0,0,.4));bottom:0;content:"";height:.53333rem;left:0;position:absolute;width:100%}.nav-slide .nav-slide__item img{display:block;-webkit-transition:transform .3s ease;transition:transform .3s ease;width:100%}.nav-slide .nav-slide__item span{color:#fff;display:-webkit-box;overflow:hidden;padding:.16rem;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;font-size:.18667rem;line-height:.29333rem}.nav-third-box__expend{position:relative;width:100%}.top-bar__aside_nav{display:none}@-webkit-keyframes Button_leave{0%{-webkit-transform:translate(-50%,-25%);transform:translate(-50%,-25%)}to{-webkit-transform:translate(-50%,-12em);transform:translate(-50%,-12em)}}@keyframes Button_leave{0%{-webkit-transform:translate(-50%,-25%);transform:translate(-50%,-25%)}to{-webkit-transform:translate(-50%,-12em);transform:translate(-50%,-12em)}}@-webkit-keyframes Button_hover{0%{-webkit-transform:translate(-50%,5rem);transform:translate(-50%,5rem)}to{-webkit-transform:translate(-50%,-25%);transform:translate(-50%,-25%)}}@keyframes Button_hover{0%{-webkit-transform:translate(-50%,5rem);transform:translate(-50%,5rem)}to{-webkit-transform:translate(-50%,-25%);transform:translate(-50%,-25%)}}@media only screen and (max-width:1300px){.top-bar__download-wrap{margin-left:.21333rem}.nav-scene-box{padding:0 .26667rem}.nav-expend__item dt{margin-right:.10667rem}.nav-games .game-expend__item{margin-right:.16rem;width:2.29333rem}.nav-games .game-expend__item img,.nav-games .game-expend__item:nth-child(5){display:none}}@media only screen and (max-width:1024px){.top-bar__logo .Jlogo{height:.42667rem}.page_bartips .tipbar_close{right:.13333rem}.page_bartips .bartips_link{font-size:.16rem;padding-left:.34667rem}.b-content-wrap{padding-left:.42667rem;padding-right:.42667rem}.top-bar__more{display:none;height:calc(100% - .64rem);left:0;opacity:0;position:fixed;top:.64rem;width:100%;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;background:rgba(0,0,0,.5);justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:.21333rem;-webkit-transition:opacity .5s ease;transition:opacity .5s ease}.top-bar__more.showbanner{height:calc(100% - 1.14667rem);top:1.14667rem}.top-bar__more.show-box{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.top-bar__more.show{opacity:1;z-index:11}.top-bar__more.show .top-bar__main{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}.top-bar__main{background:#fff;border:.01333rem solid rgba(0,0,0,.5);border-radius:.05333rem;-webkit-box-shadow:0 .05333rem .13333rem 0 rgba(0,0,0,.1);box-shadow:0 .05333rem .13333rem 0 rgba(0,0,0,.1);-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-bottom:env(safe-area-inset-bottom);max-width:4.53333rem;opacity:0;overflow:hidden;overflow-y:scroll;padding-bottom:.42667rem;scrollbar-width:none;-webkit-transform:scale(.9) translateY(-.32rem);-ms-transform:scale(.9) translateY(-.32rem);transform:scale(.9) translateY(-.32rem);-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right;-webkit-transition:.3s cubic-bezier(.16,1,.3,1);transition:.3s cubic-bezier(.16,1,.3,1);width:100%;-ms-overflow-style:none}.top-bar__main ::-webkit-scrollbar{display:none}.top-bar__nav{display:block;width:100%}.top-bar__download-wrap{font-size:.21333rem;height:.64rem;margin:0 .21333rem;width:4rem}.top-bar__download-wrap .btn-dl{background:#0047ff;border-radius:.10667rem}.top-bar__download-wrap .btn-dl:hover{background:#428eff}.top-bar__download-wrap .btn-dl:active{background:#203dd2}.top-bar__toggle{display:block}.top-bar__expend{max-height:0;overflow:hidden;position:static;-webkit-transform:none;-ms-transform:none;transform:none;-webkit-transition:max-height .3s ease;transition:max-height .3s ease}.top-bar__item{display:block;margin:0}.top-bar__item:hover{background:none}.top-bar__item-title{-webkit-box-sizing:border-box;box-sizing:border-box;color:#09090a;font-size:.26667rem;font-weight:700;line-height:.88rem;padding:0 .21333rem 0 .26667rem;-webkit-transition:color .3s ease;transition:color .3s ease}.top-bar__item-title:hover{background:rgba(0,0,0,.05)}.top-bar__item-title svg{color:#09090a;display:none;height:.32rem;width:.32rem}.top-bar__item-title .top-bar__arrow{display:block;-webkit-transition:transform .3s ease;transition:transform .3s ease}.top-bar__item-title .top-bar__arrow2,.top-bar__item-title .top-bar__arrow3{display:block}.top-bar__item-title:hover,.top-bar__item-title:hover svg,.top-bar__item.actived,.top-bar__item.actived .top-bar__item-title,.top-bar__item.actived .top-bar__item-title:hover{color:#09090a}.top-bar__item.expended .top-bar__item-title .top-bar__arrow{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.top-bar__item.expended .top-bar__expend{max-height:33.33333rem}body:has(.top-bar__more.show){height:100%;overflow:hidden}.nav-expend__item{margin:0;max-width:100%;padding:0;width:100%}.nav-expend__item:hover{background:none}.nav-expend__item dt{-webkit-box-sizing:border-box;box-sizing:border-box;color:#272729;cursor:pointer;font-size:.24rem;font-weight:400;line-height:.8rem;margin-bottom:0;margin-right:0;min-width:4.53333rem;padding:0 .21333rem 0 .26667rem;width:100%}.nav-expend__item dt:hover{background:rgba(0,0,0,.05)}.nav-expend__item dd{display:none}.nav-expend__item svg{height:.32rem;width:.32rem;fill:#272729}.nav-expend__item .top-bar__arrow{display:block;-webkit-transition:transform .3s ease;transition:transform .3s ease}.nav-expend__wrap{background:none;padding:0}.nav-expend__box{display:block;padding:0}.nav_m_scene{display:block}.nav_m_scene.expended .top-bar__arrow{-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg)}.game-expend__item-type,.nav-scene-box__desc,.nav-scene-box__title,.nav_hover,.sub-nav__wrap{display:none}.nav-strategy{background:none;margin:0;padding:0}.nav-third-box{display:block;width:100%}.nav-third-box dd{-webkit-box-sizing:border-box;box-sizing:border-box;display:block;margin:0 auto;min-width:4.53333rem}.nav-third-box__expend{max-height:0;overflow:hidden;position:static;-webkit-transform:none;-ms-transform:none;transform:none;-webkit-transition:max-height .3s ease;transition:max-height .3s ease}.nav-third-box.expended .top-bar__arrow{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.nav-third-box.expended .nav-third-box__expend{max-height:6.66667rem}.nav-strategy{width:100%}.nav-strategy .nav-slide__dots{margin:.13333rem 0;position:static}.nav-strategy .nav-slide__dots span{background:rgba(47,47,48,.2)}.nav-strategy .nav-slide__dots span.swiper-pagination-bullet-active{background:#0047ff}.nav-strategy .nav-feature__item-title{background:none;border:0;-webkit-box-sizing:border-box;box-sizing:border-box;color:#272729;display:block;font-size:.24rem;height:.8rem;line-height:.8rem;padding:0 .26667rem;width:100%}.nav-strategy .nav-feature__item-title:active,.nav-strategy .nav-feature__item-title:hover{background:rgba(0,0,0,.05);color:#272729}.nav-slide{height:2.84rem;margin:0 auto;width:4rem}.nav-slide .nav-slide__item span{background:rgba(0,0,0,.5);bottom:0;display:-webkit-box;left:0;overflow:hidden;position:absolute;text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;display:block;right:0;white-space:nowrap}.nav-games .nav-games__more{color:#272729;font-size:.24rem;line-height:.8rem;margin-bottom:0;padding:0 .21333rem 0 .26667rem;position:static}.nav-games .nav-games__more:hover{background:rgba(0,0,0,.05);color:#272729}.nav-games .nav-games__more:active{color:#272729}.nav-games .nav-games__more .top-bar__arrow{display:none}.nav-games .game-expend__item{border-radius:0;height:.8rem;margin:0;padding:0 .26667rem;width:auto}.nav-games .game-expend__item:nth-child(3),.nav-games .game-expend__item:nth-child(4),.nav-games .game-expend__item:nth-child(5){width:auto}.nav-games .game-expend__item:nth-child(3) img,.nav-games .game-expend__item:nth-child(4) img,.nav-games .game-expend__item:nth-child(5) img{display:block}.nav-games .game-expend__item:nth-child(5){display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.nav-games .game-expend__item img{display:block}.nav-games .game-expend__item:hover{background:rgba(0,0,0,.05)}.nav-games .nav-expend__item{margin-bottom:0}.game-expend__item-title{color:#272729;font-size:.24rem}.nav-feature__title{margin-top:0}.top-bar__aside_nav{display:block}.top-bar__aside_nav .top-bar__download-wrap{font-size:.18667rem;height:.42667rem;margin:0;min-width:.96rem;width:.96rem}.top-bar__aside_nav .top-bar__download-wrap .btn-dl{background:-webkit-gradient(linear,left top,right top,from(#03e7ff),to(#06f));background:-webkit-linear-gradient(left,#03e7ff,#06f);background:linear-gradient(90deg,#03e7ff,#06f);border-radius:.05333rem;font-size:.18667rem;line-height:.42667rem}.top-bar__aside_nav .top-bar__download-wrap .btn-dl:hover{background:-webkit-gradient(linear,left top,right top,from(#a7faff),to(#48a7ff));background:-webkit-linear-gradient(left,#a7faff,#48a7ff);background:linear-gradient(90deg,#a7faff,#48a7ff)}.top-bar__aside_nav .top-bar__download-wrap .btn-dl:active{background:-webkit-gradient(linear,left top,right top,from(#00b3eb),to(#0020c9));background:-webkit-linear-gradient(left,#00b3eb,#0020c9);background:linear-gradient(90deg,#00b3eb,#0020c9)}}@media only screen and (max-width:768px){.b-navcontent-wrap{padding-left:.21333rem;padding-right:.21333rem}.page_bartips .tipbar_close{right:.16rem}.b-content-wrap{padding-left:.21333rem;padding-right:.21333rem}.top-bar__item-title{font-size:.21333rem}.top-bar__item-title svg{height:.24rem;width:.24rem}.top-bar__expend a{color:#272729;font-size:.18667rem}.top-bar__arrow{height:.24rem;width:.24rem}.nav-expend__item dt{font-size:.18667rem}.nav-expend__item svg{height:.26667rem;width:.26667rem}.nav-expend__wrap{padding:0}.game-expend__item-title,.nav-games .nav-games__more,.nav-strategy .nav-feature__item-title{font-size:.18667rem}}@media only screen and (max-width:540px){.top-bar__main{max-width:100%}}@media (hover:hover){.top-bar__item .JsubMore:hover{background:rgba(0,0,0,.05)}}.width-wrap{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto;max-width:17.06667rem;padding:0 .53333rem}.footer-box{background:#1e1e21;border-top:.01333rem solid rgba(47,47,48,.1)}.footer-wrap a{color:rgba(242,242,247,.7);-webkit-transition:color .3s ease;transition:color .3s ease}.footer-wrap a:hover{color:#428eff}.footer-wrap a:active{color:#203dd2}.footer-bd{padding:1.06667rem 0}.footer-bd a{font-size:.18667rem;line-height:.53333rem}.footer-bd .footer-content{-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end}.footer-bd .footer-content dl{width:2.4rem}.footer-share{margin-bottom:.26667rem}.footer-share__icon{height:.32rem;width:.32rem;fill:rgba(47,47,48,.5);display:block}.footer-share__link{margin-right:.26667rem}.footer-share__link:active,.footer-share__link:hover{background:no-repeat 50%;background-size:100%}.footer-share__link:active .footer-share__icon,.footer-share__link:hover .footer-share__icon{opacity:0}.footer-share__link--wb:hover{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_wb_h_73b6b502.png)}.footer-share__link--red:hover{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_red_h_2945636d.png)}.footer-share__link--dy:hover{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_douyin_h_64251f96.png)}.footer-share__link--wb:active{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_wb_c_baf4e469.png)}.footer-share__link--red:active{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_red_c_fdb0cc67.png)}.footer-share__link--dy:active{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_douyin_c_c6cf9391.png)}.footer-share__link--bilibili:hover{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_bilibili_h_d6b37982.png)}.footer-share__link--gif:hover{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_gif_h_cc25754f.png)}.footer-share__link--bilibili:active{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_bilibili_c_91fc803d.png)}.footer-share__link--gif:active{background-image:url(https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_gif_c_3774b2c2.png)}.footer-share__link:active{opacity:.4}.footer-ft{border-top:.01333rem solid rgba(47,47,48,.08);color:rgba(242,242,247,.7);font-size:.16rem;padding:.53333rem 0 1.06667rem}.footer-ft__icon{height:.41333rem;margin-right:.69333rem;width:3.33333rem}.footer-ft__nav{line-height:2}.footer-ft__nav i{font-style:normal}.footer-ft__nav .icptxt{margin-left:.05333rem}.footer-tit{color:#fff;font-size:.18667rem;font-weight:700;line-height:.25333rem;margin-bottom:.26667rem}.footer-item{min-width:2.13333rem}.footer-logo{height:.42667rem}@media only screen and (max-width:992px){.footer-bd{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding-bottom:.53333rem}.footer-bd .footer-content{margin-top:.8rem;width:100%;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}.footer-bd .footer-content dl{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.footer-tit{margin-bottom:.26667rem}.footer-ft{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.footer-ft__icon{margin-bottom:.42667rem}}@media only screen and (max-width:768px){.footer-content{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-bottom:.53333rem}.footer-item:not(.footer-item-01){width:50%;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;margin-bottom:.26667rem}.footer-bd{padding-bottom:0;padding-top:.85333rem}.footer-ft{padding-bottom:.8rem}.footer-ft__icon{height:.32rem;width:2.58667rem}}</style>
+<!--This is Git Project From UUYC/uuyc-website-24v1(30557)-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EPDQHDTJH5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EPDQHDTJH5');
+</script>
+<!-- 百度统计代码 -->
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e0dd1a6f91ed67bf523a30e75be1bcbf";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
+
+<!--This is Git Project From UUYC/uuyc-website-24v1(30557)-->
+<script defer src="https://uuyc.res.netease.com/pc/gw/20241129172408/js/cms/index_home_c7bfcefc.js"></script><link href="https://uuyc.res.netease.com/pc/gw/20241129172408/css/cms/index_home_f6885362.css" rel="stylesheet"></head>
+
+
+<body><svg aria-hidden="true" width="0" height="0" style="position:absolute"><symbol fill="none" viewbox="0 0 28 28" id="icon_arrow" xmlns="http://www.w3.org/2000/svg"><path d="m10.5 7 7 7-7 7" stroke="currentColor" stroke-width="2.333" stroke-linecap="round" stroke-linejoin="round"></symbol><symbol fill="currentColor" viewbox="0 0 24 25" id="icon_arrow_left" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 18.582a1 1 0 0 1-1-1V9.996L7.707 18.29a1 1 0 0 1-1.414-1.414l8.293-8.293H7a1 1 0 0 1 0-2h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1Z"></symbol><symbol class="cicon" viewbox="0 0 1024 1024" id="icon_chevron" xmlns="http://www.w3.org/2000/svg"><path d="M396.516 225.849a42.667 42.667 0 0 1 60.302 0l256 256a42.667 42.667 0 0 1 0 60.302l-256 256a42.667 42.667 0 0 1-60.302-60.302L622.364 512 396.516 286.151a42.667 42.667 0 0 1 0-60.302z"></symbol><symbol class="dicon" viewbox="0 0 1024 1024" id="icon_circle_down" xmlns="http://www.w3.org/2000/svg"><path d="M512 85.338C276.352 85.338 85.325 276.352 85.325 512c0 235.648 191.027 426.662 426.675 426.662 235.648 0 426.662-191.027 426.662-426.662 0-235.648-191.014-426.675-426.662-426.662zm-45.696 198.105h91.418v331.533l106.662-106.662 64.653 64.64-184.704 184.704a45.709 45.709 0 0 1-64.64 0L294.989 572.954l64.64-64.64L466.29 614.976V283.43z"></symbol><symbol class="eicon" viewbox="0 0 1024 1024" id="icon_close" xmlns="http://www.w3.org/2000/svg"><path d="m512 548.242-212.26 212.26A24.54 24.54 0 0 1 281.745 768a25.6 25.6 0 0 1-18.505-7.241A25.6 25.6 0 0 1 256 742.254c0-6.985 2.487-13.02 7.497-17.993L475.794 512 263.497 299.74A24.869 24.869 0 0 1 256 281.49c0-3.474.658-6.839 2.011-9.984A25.563 25.563 0 0 1 281.783 256c6.948 0 12.983 2.487 17.956 7.497L512 475.794l212.26-212.26A24.869 24.869 0 0 1 742.51 256a25.6 25.6 0 0 1 17.993 43.74L548.243 512l212.26 212.26c5.01 4.974 7.497 10.972 7.497 17.994a25.49 25.49 0 0 1-7.497 18.249 22.784 22.784 0 0 1-8.01 5.486A25.49 25.49 0 0 1 742.51 768a24.869 24.869 0 0 1-18.286-7.497L512 548.206z"></symbol><symbol viewbox="0 0 24 24" id="icon_dou" xmlns="http://www.w3.org/2000/svg"><path d="M21.806 7.109v-.84a5.39 5.39 0 0 1-2.931-.854 5.243 5.243 0 0 1-2.362-3.45A4.914 4.914 0 0 1 16.426 1h-3.87v15.149c-.075 1.694-1.497 3.054-3.253 3.054a3.28 3.28 0 0 1-1.509-.37c-1.038-.532-1.743-1.596-1.743-2.808 0-1.756 1.459-3.178 3.252-3.178.334 0 .656.05.965.149V9.136a8.07 8.07 0 0 0-.965-.062c-3.92 0-7.123 3.117-7.123 6.963 0 2.35 1.2 4.44 3.042 5.7A7.214 7.214 0 0 0 9.303 23c3.92 0 7.123-3.116 7.123-6.962v-7.68a9.36 9.36 0 0 0 5.38 1.694V7.11Z" fill-opacity=".5"></symbol><symbol viewbox="0 0 20 20" id="icon_facebook" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.6 18.543a1.06 1.06 0 0 1-1.058 1.057v-.007h-4.891v-7.43h2.496l.374-2.9h-2.87V7.414c0-.841.23-1.41 1.438-1.41h1.533v-2.59a20.34 20.34 0 0 0-2.238-.114c-2.215 0-3.726 1.352-3.726 3.827v2.136H8.155v2.9h2.503v7.43h-9.2A1.06 1.06 0 0 1 .4 18.536V1.458A1.06 1.06 0 0 1 1.457.4h17.085A1.06 1.06 0 0 1 19.6 1.458v17.085Z" fill-opacity=".75"></symbol><symbol viewbox="0 0 22 22" id="icon_red" xmlns="http://www.w3.org/2000/svg"><path d="M16.924 10.533s.01-.01.01-.02V9.71c0-.07-.041-.121-.112-.142-.02-.01-.05-.01-.082-.01h-.507c-.05 0-.05 0-.05.05l.009.864v.04l.01.013c.003.005.005.008.01.008h.712Z" fill-opacity=".5"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.761 22h12.476A4.765 4.765 0 0 0 22 17.237V4.765A4.765 4.765 0 0 0 17.237 0H4.763A4.765 4.765 0 0 0 0 4.765v12.474A4.765 4.765 0 0 0 4.761 22Zm14.364-11.029c.087.12.144.26.166.406l-.002-.002c.013.091.02.182.02.274v1.383a.939.939 0 0 1-.67.914 1.312 1.312 0 0 1-.259.047l-.027.004c-.1.01-.354.01-.456.01h-.355c-.011 0-.03-.01-.03-.021v-.01c-.032-.079-.134-.315-.225-.526-.086-.197-.162-.373-.162-.377 0-.01 0-.016.003-.018.003-.003.008-.003.018-.003h.842c.153 0 .223-.07.223-.254v-.824a.322.322 0 0 0-.191-.283.404.404 0 0 0-.194-.04h-1.615c-.019 0-.019 0-.019.02v2.275c0 .03 0 .045-.008.052-.007.008-.023.008-.055.008h-.995c-.03 0-.046 0-.053-.008-.008-.007-.008-.022-.008-.052v-2.265c.002-.03.002-.03-.05-.03h-1.006c-.05 0-.04-.05-.04-.05v-1.007s-.01-.06.04-.06h1.026c.041 0 .041-.083.041-.083v-.8s.011-.094-.052-.094h-.628c-.031 0-.046 0-.054-.007-.008-.008-.008-.023-.008-.052V8.472c0-.011 0-.02.02-.02h.703c.01 0 .02 0 .02-.012v-.375c0-.01.01-.02.01-.02h1.077s.01-.01.02 0c.011 0 .011.01.011.02v.345c0 .02 0 .03.005.035.006.006.018.006.045.006h.497c.242.004.479.066.691.182a1.108 1.108 0 0 1 .57.865c.02.09.02.182.02.273v.73c0 .032 0 .032.03.032h.122c.213 0 .422.052.61.153a.933.933 0 0 1 .332.285ZM14.02 12.89c.01 0 .02 0 .02.01 0 .012 0 .021-.01.03v1.036c0 .02 0 .02-.02.02h-3.627c-.03 0-.04 0-.04-.009l.01-.02.488-1.056s.01-.02.04-.02h.904c.061 0 .061 0 .061-.062v-3.22c0-.025 0-.037-.006-.044-.006-.006-.02-.006-.045-.006h-.588c-.026 0-.04.002-.046-.003-.006-.005-.006-.018-.006-.047V8.492c0-.052.011-.052.052-.052h2.426c.026 0 .04-.003.046.003.006.005.006.018.006.049v1.006c0 .05 0 .05-.052.05h-.599c-.026 0-.039 0-.045.006-.006.007-.006.02-.006.044v3.261c0 .03 0 .03.031.03h1.006ZM4.827 8.096h1.045c.006 0 .011.003.016.006.005.003.01.007.016.007.01.191.01 1.705.01 2.467v2.394c.003.128-.014.255-.051.376a.912.912 0 0 1-.416.528.872.872 0 0 1-.305.091c-.1.017-.393.014-.56.012h-.09c-.019 0-.028-.01-.038-.018a16.653 16.653 0 0 1-.39-.876c0-.015 0-.023.004-.027s.011-.004.027-.004h.511c.026.002.19.01.19-.182v-.652a1148.864 1148.864 0 0 1 .011-4.102.022.022 0 0 1 .02-.02Zm5.241 3.432h.61c.01 0 .02.02.02.03l-.396.896c-.005.005-.007.007-.01.008l-.009.001H9.135a.597.597 0 0 1-.234-.04.352.352 0 0 1-.092-.042.33.33 0 0 1-.161-.273.233.233 0 0 1 .007-.115l.002-.008c.03-.09.064-.178.102-.264.03-.076.122-.284.218-.498.133-.297.272-.608.26-.608H8.83a.597.597 0 0 1-.235-.04.377.377 0 0 1-.091-.042.327.327 0 0 1-.162-.264.292.292 0 0 1 .01-.132 1.12 1.12 0 0 1 .064-.186l.028-.068c.034-.09.078-.181.122-.271l.06-.125.64-1.443c.01-.01.01-.01.02-.01h1.075c.02 0 .031.01.02.021l-.61 1.361c-.03.061.021.141.092.141h.914c.02 0 .032.011.02.02l-.812 1.83c-.02.06.02.121.082.121Zm-2.154.214c-.001.147.03.292.09.425h.002c.006.025.013.031.021.039.006.005.012.01.02.023-.031.072-.487 1.087-.55 1.22-.01 0-.01.01-.01.01-.006.007-.013-.005-.02-.017l-.009-.014a1.882 1.882 0 0 1-.255-.417 3.456 3.456 0 0 1-.243-.68 2.85 2.85 0 0 1-.102-.508c-.005-.037-.007-.072-.01-.107-.002-.041-.005-.082-.01-.125-.006-.1-.014-.2-.022-.299-.008-.084-.015-.168-.02-.251a8.159 8.159 0 0 1-.039-.478l-.031-.346c-.019-.137-.028-.268-.038-.405l-.003-.04a1.719 1.719 0 0 1-.01-.093c-.002-.036-.005-.072-.01-.11 0-.01 0-.016.002-.018.003-.003.008-.003.018-.003H7.71c.011 0 .05 0 .05.01.011.01.011.04.011.06.002.113.008.224.02.335.002.103.01.205.021.307.001.105.008.21.019.314l.031.325c0 .098.009.196.017.293l.004.042c0 .089.008.18.017.268l.003.035c0 .037.003.07.005.104.002.033.005.066.005.1ZM2.959 9.548h1.076c.012 0 .017.003.024.007a.129.129 0 0 0 .028.012 1.442 1.442 0 0 0-.011.11 1.64 1.64 0 0 1-.01.094 6.635 6.635 0 0 0-.04.446l-.03.346c-.02.163-.031.316-.04.478a8.08 8.08 0 0 1-.021.274c-.008.092-.016.183-.02.274a1.825 1.825 0 0 0-.012.126c-.002.038-.004.075-.009.108a9.689 9.689 0 0 1-.102.508 3.848 3.848 0 0 1-.244.68 2.608 2.608 0 0 1-.264.43c-.007.008-.013.017-.02.017l-.01-.01c-.04-.085-.196-.431-.332-.732-.108-.24-.203-.45-.216-.476-.01-.027-.016-.037-.015-.046 0-.009.005-.017.015-.036.06-.134.091-.279.091-.426 0-.072 0-.132.01-.204.001-.102.008-.204.02-.305 0-.098.008-.195.017-.293l.003-.042.032-.325c.001-.105.007-.21.019-.314 0-.088.008-.177.017-.266l.003-.04a3.71 3.71 0 0 1 .02-.334c.012-.01.012-.052.012-.052V9.55l.009-.001Zm6.105 3.331h1.168c.005 0 .009.003.012.006a.02.02 0 0 1 .006.015l-.487 1.065c-.01.011-.01.011-.02.011H8.374a.91.91 0 0 1-.346-.082c-.01 0-.01-.009-.01-.02l.498-1.076c0-.01.009-.01.02-.01.17.06.348.092.528.091Zm9.688-3.331h-.538s-.01-.01-.001-.01V9a.556.556 0 0 1 .478-.549.553.553 0 0 1 .61.426.56.56 0 0 1-.427.66c-.04.01-.081.01-.122.01Z" fill-opacity=".5"></symbol><symbol class="jicon" viewbox="0 0 1024 1024" id="icon_support_android" xmlns="http://www.w3.org/2000/svg"><path d="M728 608.47a39.083 39.083 0 1 1-.021-78.145 39.083 39.083 0 0 1 0 78.144zm-432.043 0a39.083 39.083 0 1 1 0-78.145 39.083 39.083 0 0 1 0 78.144zm446.059-235.435 78.101-135.296a16.235 16.235 0 1 0-28.138-16.278l-79.104 137.003c-60.48-27.605-128.427-42.987-200.896-42.987-72.491 0-140.416 15.403-200.896 42.987l-79.104-137.003a16.256 16.256 0 0 0-28.16 16.256l78.122 135.318C147.84 445.995 56.064 581.76 42.667 742.229h938.666c-13.44-160.448-105.173-296.234-239.296-369.194z"></symbol><symbol class="iicon" viewbox="0 0 1024 1024" id="icon_support_android_tv" xmlns="http://www.w3.org/2000/svg"><path d="M30.635 174.592c-9.302 18.261-9.302 42.155-9.302 89.941v409.6c0 47.787 0 71.68 9.302 89.942a85.333 85.333 0 0 0 37.29 37.29c18.262 9.302 42.155 9.302 89.942 9.302H192l-42.667 128h44.011a42.667 42.667 0 0 0 32.79-15.36L320 810.667h384l93.867 112.64a42.667 42.667 0 0 0 32.789 15.36h44.01l-42.666-128h34.133c47.787 0 71.68 0 89.942-9.302a85.333 85.333 0 0 0 37.29-37.29c9.302-18.262 9.302-42.155 9.302-89.942v-409.6c0-47.786 0-71.68-9.302-89.941a85.333 85.333 0 0 0-37.29-37.29C937.813 128 913.92 128 866.133 128H157.867c-47.787 0-71.68 0-89.942 9.301a85.333 85.333 0 0 0-37.29 37.291zm613.824 356.992a26.667 26.667 0 1 0 29.61-44.373 26.667 26.667 0 0 0-29.61 44.373zm-294.571 0a26.667 26.667 0 1 0 29.61-44.352 26.667 26.667 0 0 0-29.61 44.373zm372.181-248.277-53.248 92.245c91.456 49.75 154.006 142.336 163.158 251.733h-640c9.152-109.397 71.701-201.984 163.157-251.733l-53.248-92.267a11.093 11.093 0 1 1 19.2-11.093l53.91 93.44a328.96 328.96 0 0 1 136.96-29.312c49.429 0 95.765 10.475 137.002 29.29l53.93-93.397a11.093 11.093 0 1 1 19.2 11.094z"></symbol><symbol class="kicon" viewbox="0 0 1024 1024" id="icon_support_apple_tv" xmlns="http://www.w3.org/2000/svg"><path d="M329.813 421.93c10.774 1.11 20.587-1.535 29.44-7.893 8.875-6.4 15.638-14.592 20.352-24.576 4.971-9.984 6.912-19.84 5.803-29.525-16.043.832-29.461 7.467-40.256 19.968-10.795 12.48-15.915 26.496-15.36 42.027zm112.043 141.035a67.35 67.35 0 0 1-19.499-13.312 52.373 52.373 0 0 1-12.032-19.136 59.136 59.136 0 0 1 0-45.76c1.366-4.714 3.862-9.728 7.467-14.997 3.584-5.27 9.259-10.39 17.003-15.381-11.883-17.494-29.184-26.219-51.883-26.219-12.437 0-22.677 2.219-30.72 6.656-7.723 4.437-14.784 6.656-21.163 6.656-4.97 0-10.773-2.07-17.429-6.23-6.357-4.437-14.656-6.655-24.896-6.655-21.59 0-38.464 7.893-50.624 23.701a90.368 90.368 0 0 0-14.123 28.288 106.41 106.41 0 0 0-4.565 31.21c0 17.75 3.456 36.054 10.368 54.934 7.21 18.859 16.619 34.795 28.224 47.83 12.181 13.866 22.976 20.82 32.384 20.82 8.576 0 15.787-1.94 21.59-5.845 6.08-4.16 14.25-6.229 24.469-6.229 4.16 0 8.042.704 11.626 2.09l9.558 2.902c4.138 1.11 7.893 2.496 11.2 4.16 3.328 1.387 7.189 2.09 11.626 2.09 5.248 0 9.814-.853 13.696-2.495 3.862-1.942 7.318-4.032 10.368-6.251 8.854-8.32 16.47-18.304 22.827-29.952 6.635-11.648 11.477-22.613 14.528-32.853zm110.827-183.061h-41.92v48.256h-29.056v32.448h29.056v118.187c0 20.501 4.416 34.922 13.269 43.242s23.68 12.48 44.416 12.48c4.693 0 9.13-.128 13.27-.405 4.437-.555 7.466-.981 9.13-1.237V598.74c-.81.278-2.773.555-5.803.854h-7.04c-16.896 0-25.322-8.47-25.322-25.387V460.587h39.424V428.16h-39.424v-48.277zm177.621 252.97 73.067-204.714h-45.248l-50.219 164.352-52.288-164.352H611.2l74.71 204.715h44.394zm-405.91 305.793c-41.77 0-77.61-3.734-107.498-11.243a162.56 162.56 0 0 1-77.61-43.264 160.597 160.597 0 0 1-43.158-77.376c-7.19-29.952-10.795-66.027-10.795-108.181V324.565c0-41.877 3.606-77.653 10.795-107.349a163.179 163.179 0 0 1 43.157-77.803 161.557 161.557 0 0 1 77.206-42.837c30.165-7.488 65.962-11.243 107.498-11.243h375.19c41.792 0 77.632 3.755 107.52 11.243a164.181 164.181 0 0 1 78.016 42.837 160.619 160.619 0 0 1 43.157 77.398c7.19 29.952 10.795 66.005 10.795 108.16v373.632c0 42.154-3.606 78.208-10.795 108.16a163.157 163.157 0 0 1-43.157 77.397 160.043 160.043 0 0 1-77.611 43.264c-30.165 7.51-66.133 11.243-107.925 11.243H324.395z"></symbol><symbol class="licon" viewbox="0 0 1024 1024" id="icon_support_ios" xmlns="http://www.w3.org/2000/svg"><path d="M676.053 264.085c6.08 0 15.488.726 28.224 2.176 13.014 1.152 27.776 4.331 44.267 9.536 16.49 5.206 33.28 13.611 50.347 25.174 17.066 11.584 32.853 27.776 47.317 48.618-1.45.854-6.955 4.779-16.49 11.734-9.26 6.933-19.84 17.066-31.702 30.357-11.861 13.013-22.272 29.653-31.232 49.92-8.683 19.968-13.013 43.84-13.013 71.616 0 31.83 5.482 58.73 16.469 80.725 11.307 21.995 24.32 39.787 39.061 53.398 15.062 13.589 28.374 23.573 39.936 29.93 11.862 6.08 18.24 9.259 19.094 9.558-.278 1.152-2.454 7.68-6.507 19.541-4.053 11.563-10.41 26.603-19.093 45.141-8.384 18.219-19.392 37.334-32.982 57.28a865.643 865.643 0 0 1-38.634 50.774 183.061 183.061 0 0 1-42.966 39.509c-15.338 10.41-32.704 15.616-52.096 15.616-14.741 0-27.328-1.728-37.76-5.205a249.323 249.323 0 0 1-29.93-12.16 236.8 236.8 0 0 0-30.827-11.712c-11.285-3.478-25.323-5.206-42.09-5.206-21.995 0-40.385 2.902-55.126 8.683-14.464 6.08-28.224 12.01-41.237 17.792-13.014 5.781-28.374 8.683-46.016 8.683-26.88 0-50.624-10.71-71.168-32.128-20.267-21.398-41.088-47.019-62.507-76.8-16.49-23.744-31.53-51.094-45.141-82.048a561.835 561.835 0 0 1-32.555-98.518 457.045 457.045 0 0 1-12.16-104.17c0-55.552 10.581-102.294 31.701-140.203 21.12-37.888 48.171-66.56 81.174-85.93 32.981-19.393 67.264-29.078 102.848-29.078 18.816 0 36.48 3.05 52.949 9.11 16.79 6.08 32.427 12.309 46.89 18.666 14.465 6.08 27.627 9.11 39.489 9.11 11.285 0 24.597-3.18 39.936-9.537a850.88 850.88 0 0 1 50.773-19.968 180.907 180.907 0 0 1 60.757-9.984zm-30.378-70.314c-14.464 17.642-32.683 32.256-54.678 43.84-21.696 11.584-42.24 17.365-61.653 17.365-4.053 0-7.936-.427-11.69-1.301a149.76 149.76 0 0 1-1.323-6.08 96.235 96.235 0 0 1-.427-9.558c0-21.973 4.779-43.392 14.336-64.213 9.536-20.843 20.523-38.208 32.981-52.096 15.339-18.24 34.71-33.43 58.155-45.568 23.723-12.16 46.443-18.667 68.139-19.541.853 4.906 1.301 10.56 1.301 16.938a174.87 174.87 0 0 1-12.587 65.088 203.99 203.99 0 0 1-32.554 55.126z"></symbol><symbol class="micon" viewbox="0 0 1024 1024" id="icon_support_mac" xmlns="http://www.w3.org/2000/svg"><path d="M557.12 361.237v-7.402l-22.912 1.6c-6.507.384-11.413 1.792-14.72 4.096a11.37 11.37 0 0 0-4.907 9.813 11.307 11.307 0 0 0 4.907 9.685c3.2 2.411 7.616 3.627 13.013 3.627 3.52 0 6.72-.512 9.707-1.621a24.747 24.747 0 0 0 7.808-4.395 19.755 19.755 0 0 0 7.104-15.403zM512 64C261.973 64 64 261.973 64 512s197.973 448 448 448 448-197.973 448-448S762.027 64 512 64zm86.933 265.515c2.112-5.91 5.12-11.008 9.003-15.296 3.904-4.203 8.512-7.51 13.91-9.814 5.397-2.304 11.52-3.413 18.218-3.413 5.995 0 11.499.917 16.299 2.71 4.906 1.813 9.002 4.202 12.501 7.317 3.499 2.986 6.208 6.613 8.32 10.602 1.984 4.096 3.2 8.406 3.584 12.907h-18.005a25.557 25.557 0 0 0-2.39-6.912 20.565 20.565 0 0 0-4.608-5.59 21.803 21.803 0 0 0-6.698-3.711 26.517 26.517 0 0 0-8.704-1.302 22.784 22.784 0 0 0-18.411 8.811c-2.197 2.795-3.904 6.187-5.12 10.304a46.72 46.72 0 0 0-1.792 13.397c0 5.12.597 9.707 1.813 13.718 1.195 3.989 2.902 7.402 5.206 10.197 2.197 2.795 4.906 4.907 8.106 6.4 3.094 1.493 6.592 2.197 10.283 2.197 6.208 0 11.221-1.386 15.019-4.288 3.904-2.901 6.4-7.104 7.594-12.714h18.006a35.986 35.986 0 0 1-4.096 13.504c-2.198 4.096-5.099 7.509-8.512 10.41-3.499 2.902-7.595 5.099-12.395 6.614a48.64 48.64 0 0 1-15.616 2.389c-6.699 0-12.8-1.11-18.304-3.307a38.933 38.933 0 0 1-13.995-9.6 42.645 42.645 0 0 1-9.002-15.21 60.8 60.8 0 0 1-3.2-20.203 57.792 57.792 0 0 1 2.986-20.117zm-255.893-27.2h18.005v16h.32c1.088-2.71 2.496-5.12 4.288-7.104 1.814-2.091 3.798-3.904 6.102-5.398 2.304-1.493 4.906-2.602 7.616-3.413 2.773-.79 5.696-1.195 8.789-1.195 6.613 0 12.203 1.6 16.704 4.694 4.608 3.2 7.808 7.701 9.707 13.61h.512c1.194-2.794 2.794-5.397 4.8-7.594a30.037 30.037 0 0 1 15.21-9.387 37.12 37.12 0 0 1 22.187.875 26.901 26.901 0 0 1 15.915 16.106c1.408 3.798 2.218 8.107 2.218 12.8v64.342h-18.816v-59.734c0-6.186-1.6-11.008-4.8-14.4-3.2-3.413-7.701-5.12-13.61-5.12a21.12 21.12 0 0 0-8 1.515 16.896 16.896 0 0 0-6.187 4.31 19.947 19.947 0 0 0-4.117 6.613c-1.003 2.496-1.494 5.29-1.494 8.384v58.624h-18.41v-61.44a19.52 19.52 0 0 0-1.302-7.382 15.424 15.424 0 0 0-9.301-9.301 21.845 21.845 0 0 0-15.616.299 18.133 18.133 0 0 0-6.293 4.48 18.773 18.773 0 0 0-4.118 6.826c-.896 2.603-2.496 5.398-2.496 8.491v57.941H343.04v-94.464zm40.917 452.096c-82.624 0-134.357-57.43-134.357-148.971 0-91.52 51.733-149.163 134.357-149.163 82.646 0 134.187 57.622 134.187 149.163s-51.627 148.97-134.187 148.97zm152.875-357.867a40.597 40.597 0 0 1-22.208-.81 28.587 28.587 0 0 1-10.112-5.697 26.176 26.176 0 0 1-9.003-20.309c0-8.299 3.115-14.805 9.302-19.413 6.208-4.694 15.125-7.382 26.816-8.107l25.514-1.493v-7.296c0-5.398-1.706-9.6-5.205-12.395-3.499-2.816-8.32-4.31-14.72-4.31-2.496 0-4.885.3-7.083.897a20.736 20.736 0 0 0-5.802 2.709 15.616 15.616 0 0 0-6.507 9.813h-17.707a24.533 24.533 0 0 1 3.094-11.626c2.005-3.584 4.608-6.614 7.893-9.195 3.328-2.603 7.317-4.608 11.819-6.101 4.501-1.408 9.514-2.198 14.805-2.198a51.2 51.2 0 0 1 15.616 2.198c4.693 1.493 8.704 3.498 12.01 6.186 3.286 2.71 5.803 5.91 7.595 9.728 1.792 3.798 2.71 8.107 2.71 12.694v64.832h-18.027v-15.702h-.49c-1.302 2.496-2.987 4.907-5.12 6.891a35.221 35.221 0 0 1-6.891 5.312c-2.39 1.493-5.206 2.603-8.299 3.413zM655.68 754.411c-63.019 0-105.835-33.024-108.736-84.843h41.003c3.2 29.61 31.829 49.216 71.04 49.216 37.61 0 64.64-19.605 64.64-46.421 0-23.211-16.427-37.206-54.443-46.806l-37.013-9.216c-53.227-13.205-77.44-37.418-77.44-77.226 0-49.024 42.837-83.051 103.765-83.051 59.627 0 101.12 34.219 102.741 83.456H720.62c-2.795-29.632-27.008-47.83-63.04-47.83-35.798 0-60.608 18.411-60.608 45.014 0 21.013 15.594 33.43 53.61 43.03l31.211 7.807c59.435 14.4 83.84 37.803 83.84 79.83 0 53.632-42.325 87.04-109.952 87.04zM383.936 492.992c-56.619 0-91.947 43.413-91.947 112.341 0 68.843 35.414 112.15 91.947 112.15 56.427 0 91.947-43.414 91.947-112.15 0-68.906-35.627-112.341-91.947-112.341z"></symbol><symbol class="nicon" viewbox="0 0 1024 1024" id="icon_support_vision_pro" xmlns="http://www.w3.org/2000/svg"><path d="M512.17 692.523c-12.8 0-25.813 3.648-39.082 10.944a379.947 379.947 0 0 0-42.027 26.474c-14.805 10.603-30.933 21.184-48.362 31.787-17.216 10.603-36.203 19.413-56.96 26.496-20.736 7.275-43.691 10.923-68.843 10.923-30.464 0-58.73-6.4-84.779-19.2a212.203 212.203 0 0 1-68.202-54.315c-19.2-23.381-34.219-50.645-45.014-81.77-10.858-31.126-16.234-64.897-16.234-101.334 0-47.659 7.829-87.403 23.509-119.19 15.893-32 38.187-57.706 66.88-77.14 28.693-19.414 62.57-34.091 101.653-44.033 39.275-9.941 82.347-16.554 129.131-19.861a2114.41 2114.41 0 0 1 148.33-4.97c51.627 0 100.865 1.663 147.67 4.97 47.019 3.307 90.048 9.92 129.13 19.861 39.297 9.707 73.28 24.278 101.974 43.712 28.693 19.414 50.88 45.142 66.56 77.142 15.872 31.786 23.83 71.616 23.83 119.53 0 36.416-5.42 70.187-16.214 101.312-10.603 31.126-25.6 58.39-45.035 81.771a212.181 212.181 0 0 1-68.202 54.315c-26.048 12.8-54.315 19.2-84.779 19.2-25.173 0-48.107-3.627-68.864-10.923a289.792 289.792 0 0 1-57.28-26.496 824.192 824.192 0 0 1-48-31.787 379.947 379.947 0 0 0-42.048-26.474c-13.248-7.296-26.176-10.944-38.741-10.944z"></symbol><symbol class="oicon" viewbox="0 0 1024 1024" id="icon_support_windows" xmlns="http://www.w3.org/2000/svg"><path d="M469.333 128H128v341.333h341.333V128zM896 128H554.667v341.333H896V128zM128 554.667h341.333V896H128V554.667zm768 0H554.667V896H896V554.667z"></symbol><symbol class="picon" viewbox="0 0 1024 1024" id="icon_top" xmlns="http://www.w3.org/2000/svg"><path d="M696.7 542.208c-5.595 5.575-12.896 8.325-20.177 8.325-7.301 0-14.602-2.75-20.196-8.344L538.89 424.77v359.045a28.52 28.52 0 0 1-57.021 0v-351.65L371.124 542.323c-11.15 11.055-29.184 11.055-40.353-.114a28.596 28.596 0 0 1 .114-40.391l163.404-162.133a28.444 28.444 0 0 1 40.258.113l162.152 162.134c11.188 11.074 11.188 29.089 0 40.277zm-1.025-257.63H331.91a28.52 28.52 0 0 1 0-57.022h363.766a28.52 28.52 0 0 1 0 57.021z"></symbol><symbol viewbox="0 0 24 24" id="icon_weixin" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#qa)" fill-rule="evenodd" clip-rule="evenodd" fill-opacity=".5"><path d="M16.77 8.226c-4.346 0-7.882 2.996-7.882 6.678l.004-.002c0 .53.08 1.042.218 1.536l-.074.004c-.119.007-.237.014-.358.014-.99 0-1.946-.142-2.832-.396a.911.911 0 0 0-.256-.038.912.912 0 0 0-.46.134l-1.898 1.096a.34.34 0 0 1-.168.054.289.289 0 0 1-.29-.288c0-.055.016-.11.032-.163a618.545 618.545 0 0 1 .404-1.507.572.572 0 0 0-.212-.656C1.168 13.366 0 11.406 0 9.228 0 5.236 3.884 2 8.674 2c4.39 0 8.008 2.72 8.584 6.246l-.12-.006a6.607 6.607 0 0 0-.368-.014Zm-4.048-1.312a1.157 1.157 0 1 0-2.313.001 1.157 1.157 0 0 0 2.313-.001Zm-8.096.002a1.157 1.157 0 1 0 2.313-.001 1.157 1.157 0 0 0-2.313.001Z"><path d="M16.772 8.88c3.992 0 7.228 2.698 7.228 6.024h.002c0 1.816-.974 3.45-2.498 4.554a.48.48 0 0 0-.176.546l.157.586.169.628.014.05a.453.453 0 0 1 .024.126.242.242 0 0 1-.242.242.265.265 0 0 1-.14-.046l-1.582-.914a.758.758 0 0 0-.384-.11.745.745 0 0 0-.212.032 8.57 8.57 0 0 1-2.36.33c-3.994 0-7.23-2.698-7.23-6.024s3.238-6.024 7.23-6.024Zm-3.374 4.096a.965.965 0 1 0 1.929-.001.965.965 0 0 0-1.929.001Zm4.82 0a.965.965 0 1 0 1.929-.001.965.965 0 0 0-1.929.001Z"></g><defs><clippath id="qa"><path fill="#fff" d="M0 0h24v24H0z"></clippath></defs></symbol></svg>
+    <nav class="top-bar" id="js_topbar">
+    <div class="page_bartips">
+        <a href="https://adl.netease.com/d/g/uuremote/c/newf_filecon?type=pc&direct=1" class="bartips_link">「GameViewer远程」正式更名为「网易UU远程」</a>
+        <a href="javascript:;" class="tipbar_close"><i></i></a>
+    </div>
+    <div class="top-bar__wrap">
+        <div class="display-flex flex-space-between top-bar__bd b-navcontent-wrap">
+            <div class="top-bar__item top-bar__logo">
+                <a href="/" data-ssname="nav_logo">
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/logo_aeff9bc4.png" alt="网易UU远程" width="95" height="32" class="Jlogo" loading="lazy" />
+                </a>
+            </div>
+            <div class="top-bar__more flex-1" id="topbar_more">
+                <div class="top-bar__main display-flex flex-space-between b-border-box flex-1">
+                    <div class="top-bar__nav display-flex">
+                        <div class="top-bar__item top-bar__item--home">
+                            <a href="/" class="top-bar__item-title display-flex flex-space-between" data-ssname="nav_index">
+                                首页
+                            </a>
+                        </div>
+                        <div class="top-bar__item">
+                            <a href="/download/" class="top-bar__item-title display-flex flex-space-between down-btn" data-ssname="nav_download">
+                                下载
+                            </a>
+                        </div>
+                        <div class="top-bar__item">
+                            <a href="/help/" class="display-flex flex-space-between top-bar__item-title" data-id="support_nav" data-ssname="nav_help">
+                                帮助
+                            </a>
+                        </div>
+                        <li class="top-bar__item">
+                            <a href="javascript:;" data-id="product_nav" class="top-bar__item-title display-flex flex-space-between Jnav_expend">
+                                <span>场景</span>
+                                <svg class="top-bar__arrow top-bar__arrow1" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="#icon_arrow"></use>
+                                </svg>
+                            </a>
+                            <div class="top-bar__expend show" id="product_nav">
+                                <div class="nav-expend__wrap">
+                                    <div class="display-flex nav-expend__box flex-space-between nav-scene-box">
+                                        <div class="nav-strategy">
+                                            <div class="nav-expend__item">
+                                                <dl class="nav-third-box">
+                                                    <dt class="display-flex flex-space-between Jnav_expend" data-type="slide">
+                                                        <span>远程游戏攻略</span>
+                                                        <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                            <use xlink:href="#icon_arrow"></use>
+                                                        </svg>
+                                                    </dt>
+                                                    <dd class="nav-third-box__expend">
+                                                        <div class="swiper-container nav-slide">
+                                                            <div class="swiper-wrapper">
+                                                                                                                                <div class="swiper-slide">
+                                                                    <a class="nav-slide__item" href="https://uuyc.163.com/blog/20250415/41377_1227599.html">
+                                                                        <i class="nav-slide__item-img">
+                                                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250416/b1b9547c-4c86-4fb7-baaf-983265032da1.png" alt="平板、手机多种方式轻松畅玩《苏丹的游戏》" loading="lazy">
+                                                                                                                                                    </i>
+                                                                        <span>平板、手机多种方式轻松畅玩《苏丹的游戏》</span>
+                                                                    </a>
+                                                                </div>
+                                                                                                                                <div class="swiper-slide">
+                                                                    <a class="nav-slide__item" href="https://uuyc.163.com/blog/20250421/41377_1229006.html">
+                                                                        <i class="nav-slide__item-img">
+                                                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250422/d95aecd1-3cbc-49f1-b5fe-27a1bdfaec37.png" alt="如同手柄控制一般，手机玩转《暗黑3》" loading="lazy">
+                                                                                                                                                    </i>
+                                                                        <span>如同手柄控制一般，手机玩转《暗黑3》</span>
+                                                                    </a>
+                                                                </div>
+                                                                                                                                <div class="swiper-slide">
+                                                                    <a class="nav-slide__item" href="https://uuyc.163.com/blog/20250416/41377_1227823.html">
+                                                                        <i class="nav-slide__item-img">
+                                                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250416/12e7b007-62a1-4b55-8c35-b822df112318.jpg" alt="逃离？反抗？和网易UU远程一起看《苏丹的游戏》结局攻略" loading="lazy">
+                                                                                                                                                    </i>
+                                                                        <span>逃离？反抗？和网易UU远程一起看《苏丹的游戏》结局攻略</span>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            </div>
+                                                        </div>
+                                                                                                                <div class="swiper-pagination nav-slide__dots"></div>
+                                                                                                            </dd>
+                                                </dl>
+                                            </div>
+                                            <dl class="nav-feature nav-third-box nav-expend__item">
+                                                <dt class="nav-feature__title display-flex  flex-space-between Jnav_expend">
+                                                    <span>特色功能</span>
+                                                    <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                        <use xlink:href="#icon_arrow"></use>
+                                                    </svg>
+                                                </dt>
+                                                <dd class="display-flex flex-space-between nav-third-box__expend">
+                                                    <a class="nav-feature__item-title" href="/pf/color/">高清画面</a>
+                                                    <a class="nav-feature__item-title" href="/pf/privacy/">隐私守护</a>
+                                                    <a class="nav-feature__item-title" href="/pf/file/">文件传输</a>
+                                                    <a class="nav-feature__item-title" href="/pf/support/">远程协助</a>
+                                                    <a class="nav-feature__item-title" href="/pf/work/">远程办公</a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+
+                                        <div class="nav-games">
+                                            <div class="nav-games__hd">
+                                                <div class="nav-scene-box__title">
+                                                    远程游戏
+                                                </div>
+                                                <div class="nav-scene-box__desc">
+                                                    用电脑、手机、平板甚至 TV 均可随时随地玩游戏
+                                                </div>
+                                            </div>
+
+                                            
+                                            
+                                                                                        <div class="nav-expend__item">
+                                                <dl class="nav-third-box display-flex">
+                                                    <dt class="display-flex flex-space-between Jnav_expend">
+                                                                                                                <span>Steam游戏</span>
+                                                        <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                            <use xlink:href="#icon_arrow"></use>
+                                                        </svg>
+                                                    </dt>
+                                                    <dd class="display-flex game-expend__box nav-third-box__expend flex-space-between">
+                                                                                                                <a href="https://uuyc.163.com/game/poe2/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250407/7cba629b-2347-4a60-b4fe-c4f4d946d8d9.png" alt="流放之路2" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">流放之路2</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/sddyx/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250407/aac8855f-cb69-4952-bf05-5faf191bd236.jpg" alt="苏丹的游戏" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">苏丹的游戏</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="new">New</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/33yzd/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">光与影：33号远征队</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/le/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">最后纪元</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/sgjz4/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">上古卷轴4重制版</span>
+                                                                                                                    </a>
+                                                                                                            </dd>
+                                                </dl>
+                                            </div>
+                                                                                        
+                                                                                        <div class="nav-expend__item">
+                                                <dl class="nav-third-box display-flex">
+                                                    <dt class="display-flex flex-space-between Jnav_expend">
+                                                                                                                <span>多人竞技</span>
+                                                        <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                            <use xlink:href="#icon_arrow"></use>
+                                                        </svg>
+                                                    </dt>
+                                                    <dd class="display-flex game-expend__box nav-third-box__expend flex-space-between">
+                                                                                                                <a href="https://uuyc.163.com/game/df/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/8cc9feca-af27-4420-991b-d18b52f99df5.png" alt="三角洲行动" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">三角洲行动</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/abi/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250428/d4c3afa8-282b-42ca-95b6-f02b55ee2e27.png" alt="暗区突围：无限" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">暗区突围：无限</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="new">New</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/cs2/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">CS2</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/ow/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/6c90fcf3-eec9-4e58-9a3b-a496d560202e.png" alt="守望先锋" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">守望先锋</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/yjwj/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">永劫无间</span>
+                                                                                                                    </a>
+                                                                                                            </dd>
+                                                </dl>
+                                            </div>
+                                                                                        
+                                                                                        <div class="nav-expend__item">
+                                                <dl class="nav-third-box display-flex">
+                                                    <dt class="display-flex flex-space-between Jnav_expend">
+                                                                                                                <span>MMO</span>
+                                                        <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                            <use xlink:href="#icon_arrow"></use>
+                                                        </svg>
+                                                    </dt>
+                                                    <dd class="display-flex game-expend__box nav-third-box__expend flex-space-between">
+                                                                                                                <a href="https://uuyc.163.com/game/wow/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/91b80d99-1f75-435e-891d-3ae16bed855f.png" alt="魔兽世界" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">魔兽世界</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/ah3/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250422/dea99e14-f9e0-4267-b287-7fa5d7160685.jpg" alt="暗黑破坏神3" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">暗黑破坏神3</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/qrsj/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">七日世界</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/dnf/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/13c69bf8-a057-4ae0-ab67-5ab7e7ee91db.png" alt="DNF" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">DNF</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/nsh/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">逆水寒</span>
+                                                                                                                    </a>
+                                                                                                            </dd>
+                                                </dl>
+                                            </div>
+                                                                                        
+                                                                                        <div class="nav-expend__item">
+                                                <dl class="nav-third-box display-flex">
+                                                    <dt class="display-flex flex-space-between Jnav_expend">
+                                                                                                                <span>多端手游</span>
+                                                        <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                            <use xlink:href="#icon_arrow"></use>
+                                                        </svg>
+                                                    </dt>
+                                                    <dd class="display-flex game-expend__box nav-third-box__expend flex-space-between">
+                                                                                                                <a href="https://uuyc.163.com/game/wuwa/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250428/f3f0c3e4-65e3-4876-bb2f-9d4474606344.png" alt="鸣潮" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">鸣潮</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/zzz/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250428/f20c56b1-eced-4071-9786-0f11119d1c39.png" alt="绝区零" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">绝区零</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/starrail/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">崩坏：星穹铁道</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/wxnn/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">无限暖暖</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/nikke/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">妮姬：胜利女神</span>
+                                                                                                                    </a>
+                                                                                                            </dd>
+                                                </dl>
+                                            </div>
+                                                                                        
+                                                                                        <div class="nav-expend__item">
+                                                <dl class="nav-third-box display-flex">
+                                                    <dt class="display-flex flex-space-between Jnav_expend">
+                                                                                                                <span>策略经营</span>
+                                                        <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                            <use xlink:href="#icon_arrow"></use>
+                                                        </svg>
+                                                    </dt>
+                                                    <dd class="display-flex game-expend__box nav-third-box__expend flex-space-between">
+                                                                                                                <a href="https://uuyc.163.com/game/lscs/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/2f3ed6ff-24f1-4062-82c6-0b5235e8efe5.png" alt="炉石传说" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">炉石传说</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/tft/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/15fcc5b9-7d9d-4371-96db-87e050cb2297.png" alt="云顶之弈" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">云顶之弈</span>
+                                                                                                                        <span class="game-expend__item-type" data-type="hot">Hot</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/limbocop/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250320/ae1b8b6f-ea72-4396-a3c7-96769a45b4b7.png" alt="边狱公司" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">边狱公司</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/quehun/" class="game-expend__item display-flex">
+                                                                                                                        <span class="game-expend__item-title">雀魂</span>
+                                                                                                                    </a>
+                                                                                                    
+                                                                                                    <a href="https://uuyc.163.com/game/stardew/" class="game-expend__item display-flex">
+                                                                                                                        <img src="https://nie.res.netease.com/r/pic/20250326/d24f8784-67bd-4caf-a601-7cfa4b5d3d5a.jpg" alt="星露谷物语" loading="lazy">
+                                                                                                                        <span class="game-expend__item-title">星露谷物语</span>
+                                                                                                                    </a>
+                                                                                                            </dd>
+                                                </dl>
+                                            </div>
+                                                                                        
+                                            <a class="nav-expend__item nav-games__more display-flex  flex-space-between" href="/blog/">
+                                                <span>更多游戏和资讯</span>
+                                                <svg class="top-bar__arrow" xmlns="http://www.w3.org/2000/svg">
+                                                    <use xlink:href="#icon_arrow"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="top-bar__item">
+                            <a href="/blog/" class="display-flex flex-space-between top-bar__item-title" data-id="blog_nav" data-ssname="nav_blog">
+                                文章
+                            </a>
+                        </div>
+                        <div class="top-bar__item top-bar__item_hide">
+                            <a href="https://mumu.163.com/?source_channel=gvgw" target="_blank" class="top-bar__item-title display-flex flex-space-between tap-bar-tomumu" data-ssname="nav_download">
+                                MuMu模拟器
+                                <svg class="top-bar__arrow2" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="#icon_arrow_left"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="top-bar__item top-bar__item_hide">
+                            <a href="https://uu.163.com/?channel=uuyc" target="_blank" class="top-bar__item-title display-flex flex-space-between tap-bar-tomumu" data-ssname="nav_download">
+                                UU加速器
+                                <svg class="top-bar__arrow2" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="#icon_arrow_left"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <aside class="top-bar__aside">
+                        <div class="btn-dl__wrap top-bar__download-wrap">
+                            <a href="/download/" class="top-bar__download btn-dl display-flex flex-center" data-ssname="nav_download_btn">
+                                <span>下载</span>
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <div class="top-bar__btns display-flex">
+                <aside class="top-bar__aside top-bar__aside_nav">
+                    <div class="btn-dl__wrap top-bar__download-wrap">
+                        <a href="/download/" class="top-bar__download btn-dl display-flex flex-center" data-ssname="nav_download_btn">
+                            <span>下载</span>
+                        </a>
+                    </div>
+                </aside>
+                <div class="top-bar__toggle JnavMore">
+                    <span class="top-bar__toggle-line"></span>
+                    <span class="top-bar__toggle-line"></span>
+                    <span class="top-bar__toggle-line"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="top-bar__mask"></div>
+<!--This is Git Project From UUYC/uuyc-website-24v1(30557)-->
+<!--stamp:5bccbbb6-c437-48bc-b2ab-5104ae986973,tplId:28349,pageId:33598,tplName:UUYC-website-24v1[index_topbar][Pub][30557]-->
+    <div class="zwff"></div>
+    <main class="homepage">
+        <section class="part part-kv">
+            <div class="part-bd b-content-wrap">
+                <div class="part-con">
+                    <div class="part-tit" data-aos="fade-up" data-aos-offset="50"><img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/kv_tit_a8887a40.png" fetchpriority="high" alt="网易UU远程,远程游戏专家"></div>
+                    <!-- <p class="part-desc">聚合影片资源，智能识别影片信息，自动刮削封面海报，无需下载视频，高速在线播放，跨平台跨设备同步，优雅打造私人影视库</p> -->
+                    <div class="btn-dl__wrap" data-aos="fade-up" data-aos-delay="200">
+                        <a href="javascript:;" data-type="windows" class="btn-dl btn-dl-windows display-flex" data-ssname="index_download">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_windows" />
+                            </svg>
+                            <span>Windows 下载</span>
+                        </a>
+                        <a href="javascript:;" data-type="macos" class="btn-dl btn-dl-macos display-flex" data-ssname="index_download">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_mac" />
+                            </svg>
+                            <span>macOS 下载</span>
+                        </a>
+                        <a href="javascript:;" data-type="ios" class="btn-dl btn-dl-ios display-flex" data-ssname="index_download">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_ios" />
+                            </svg>
+                            <span>iOS 下载</span>
+                        </a>
+                        <a href="javascript:;" data-type="android" class="btn-dl btn-dl-android display-flex" data-ssname="index_download">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_android" />
+                            </svg>
+                            <span>Android 下载</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="support-os display-flex">
+                    <a class="support-os__item Jdownload" id="support-os-windows" href="javascript:;" data-type="windows" data-ssname="index_download_win">
+                        <i><svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_windows" />
+                            </svg>
+                            <span>Windows</span></i>
+                    </a>
+                    <a class="support-os__item Jdownload" id="support-os-macos" href="javascript:;" data-type="macos" data-ssname="index_download_mac">
+                        <i><svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_mac" />
+                            </svg><span>macOS</span></i>
+                    </a>
+                    <a class="support-os__item Jdownload" id="support-os-ios" data-type="ios" href="javascript:;" data-ssname="index_download_ios">
+                        <i><svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_ios" />
+                            </svg><span>iOS</span></i>
+                    </a>
+                    <a class="support-os__item Jdownload" id="support-os-android" data-type="android" href="javascript:;" data-ssname="index_download_android">
+                        <i><svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_android" />
+                            </svg><span>Android</span></i>
+                    </a>
+                    <a class="support-os__item support-os-androidtv__item Jdownload" id="support-os-androidtv" data-type="androidtv" href="javascript:;" data-ssname="index_download_androidtv">
+                        <i><svg xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_support_android_tv" />
+                            </svg><span>TV</span></i>
+                    </a>
+                </div>
+            </div>
+            <div class="kv_bg_main">
+                <picture class="img-kv">
+                    <source srcset="https://uuyc.res.netease.com/pc/gw/20241129172408/img/kv_bg1_04b9fca1.webp" fetchpriority="high" type="image/webp">
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/kv_bg1_ebdcc0b0.png" alt="kv" fetchpriority="high">
+                </picture>
+                <div class="left_kv" data-aos-duration="10000" data-aos-offset="0" data-aos="fade-zoom-in" data-aos-delay="400"><img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/kv_bg_l_0aa8c917.png" fetchpriority="high" alt="kv"></div>
+                <div class="right_kv" data-aos-duration="10000" data-aos-offset="0" data-aos="fade-zoom-in" data-aos-delay="400"><img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/kv_bg_r_b8cfb779.png" fetchpriority="high" alt="kv"></div>
+            </div>
+
+            <span class="pin_bg1"></span>
+        </section>
+
+        <section class="part part-sellpoint part-sellpoint-01">
+            <div class="part-bd b-content-wrap">
+                <h2 class="part-tit" data-aos="fade-up"><img class="img1" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_tit_pc_d4358107.png" alt="远程控制电脑超低延迟"><img class="img2" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_tit_m_d1a95b1a.png" alt="远程控制电脑超低延迟"></h2>
+                <div class="sellpoint-01-main">
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_pic1_pc_710e2366.png" class="sellpoint-img sellpoint-img-pc" alt="远程控制高速直连，如同本地操作般流畅" loading="lazy">
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_pic1_m_49521fb6.png" class="sellpoint-img sellpoint-img-m" alt="远程控制高速直连，如同本地操作般流畅" loading="lazy">
+                    <div class="left_box">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_left_1_9111767f.png" data-aos="fade-left" data-aos-anchor=".sellpoint_left_tag1" data-aos-delay="200" data-aos-duration="500" alt="fps" loading="lazy" class="sellpoint_left_tag1">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_left_2_fa9eccb1.png" data-aos="fade-left" data-aos-delay="400" data-aos-anchor=".sellpoint_left_tag1" data-aos-duration="500" alt="fps" loading="lazy" class="sellpoint_left_tag2">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_left_3_687d94d8.png" data-aos="fade-left" data-aos-delay="600" data-aos-anchor=".sellpoint_left_tag1" data-aos-duration="500" alt="fps" loading="lazy" class="sellpoint_left_tag3">
+                    </div>
+                    <div class="right_box" data-aos-duration="1000" data-aos-offset="200" data-aos="fade-zoom-in" data-aos-anchor=".sellpoint_right_tag1">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_right_1_d42e8ab6.png" alt="H265" loading="lazy" class="sellpoint_right_tag1">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_right_2_011b4d40.png" alt="高速专网" loading="lazy" class="sellpoint_right_tag2">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_right_3_d2de1c87.png" alt="负延迟" loading="lazy" class="sellpoint_right_tag3">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md1_right_4_34c76194.png" alt="GPU零拷贝" loading="lazy" class="sellpoint_right_ta4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="part part-sellpoint part-sellpoint-02">
+            <div class="part-bd b-content-wrap">
+                <div class="part-con">
+                    <h2 class="part-tit" data-aos="fade-up"><img class="img1" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_tit_pc_7d9ed0f3.png" alt="游戏串流高清高帧"><img class="img2" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_tit_m_7e654a29.png" alt="游戏串流高清高帧"></h2>
+                </div>
+                <div class="img_box">
+                    <img class="zw" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_bg_c_empty_50ff98e1.png" alt="empty">
+                    <picture data-aos-duration="6000" data-aos="fade-zoom-in" class="sellpoint-img-l" alt="img">
+                        <source srcset="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_bg_l_030d5f0d.webp" type="image/webp">
+                        <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_bg_l_913400c3.png">
+                    </picture>
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_bg_c_b6d9a9e5.png" data-aos-duration="600" data-aos="fade-up" data-aos-delay="400" alt="游戏串流4K蓝光144帧百分百还原精彩" class="sellpoint-img-c ">
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md2_bg_r_e3e630f4.png" data-aos="fade-up-right" alt="游戏串流4K蓝光144帧百分百还原精彩" data-aos-duration="600" data-aos-delay="600" class="sellpoint-img-r">
+                </div>
+                <!-- <div class="sellpoint-ani sellpoint-ani__box" data-aos="fade-left">
+                    <img src="../img/s2_mobile.png" alt="手机" loading="lazy" class="sellpoint-ani__mobile" data-aos-duration="400">
+                    <img src="../img/s2_tag2.png" alt="百度云盘" loading="lazy" class="sellpoint-ani sellpoint-ani__tag2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="400">
+                    <img src="../img/s2_tag3.png" alt="阿里云盘" loading="lazy" class="sellpoint-ani sellpoint-ani__tag3" data-aos="zoom-in" data-aos-anchor=".sellpoint-ani__tag2" data-aos-delay="200" data-aos-duration="400">
+                </div> -->
+            </div>
+        </section>
+        <section class="part part-sellpoint part-sellpoint-03">
+            <div class="sellpoint-03-main">
+                <div class="part-bd b-content-wrap">
+                    <div class="part-con">
+                        <h2 class="part-tit" data-aos="fade-up"><img class="img1" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md3_tit_pc_b77de4ca.png" alt="远程控制游戏操控自如"><img class="img2" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/md3_tit_m_88ee99c2.png" alt="远程控制游戏操控自如"></h2>
+                    </div>
+                </div>
+                <div class="sellpoint03_bg_box" data-aos-duration="2000" data-aos-delay="100" data-aos="fade-zoom-in"></div>
+            </div>
+        </section>
+        <section class="part part-06">
+            <h2 class="part-tit" data-aos="fade-up"><img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/page_comment_tit_1fa0da44.png" alt="网易UU远程用户评价"></h2>
+            <div class="part-bd b-content-wrap">
+                <div class="display-flex comments-list" data-aos="fade-up">
+                    <div class="user-box">
+                        <div class="display-flex">
+                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_01_98ea6a00.png" loading="lazy" class="user-avatar" alt="evilsenior">
+                            <div class="user-info">
+                                <div class="user-name">evilsenior</div>
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="user-desc">网易UU远程是非常棒的远程控制工具。画质高和延迟低，基本和本地效果一样，加上我在家配置的远程开机，一套组合拳下来体验贼爽。目前对外设支持不错，尤其是移动端支持了键盘鼠标，非常方便，外出远程打游戏很棒！</p>
+                    </div>
+                    <div class="user-box">
+                        <div class="display-flex">
+                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_02_40c62b50.png" loading="lazy" class="user-avatar swiper-lazy" alt="披风">
+                            <div class="user-info">
+                                <div class="user-name">披风</div>
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="user-desc">网易UU远程是高品质远程控制软件。便捷、稳定、安全、多功能，支持移动端和桌面端。网易出品，让我随时随地可以远程家里的电脑，游玩各类游戏，超低延迟和高清画质，游戏体验极佳。</p>
+                    </div>
+                    <div class="user-box">
+                        <div class="display-flex">
+                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_03_7689a463.png" loading="lazy" class="user-avatar swiper-lazy" alt="公告我咯咯logo">
+                            <div class="user-info">
+                                <div class="user-name">公告我咯咯logo</div>
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="user-desc">网易UU远程画质好，连接稳定。有时候晚上加班太晚或者周末加班的情况，希望可以在家里同时也不希望影响项目进度，会使用一些远程控制工具。这一款在 Wi-Fi 下使用，画质质量确实不错，连接也很稳定。</p>
+                    </div>
+                    <div class="user-box">
+                        <div class="display-flex">
+                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_04_6b4737eb.png" loading="lazy" class="user-avatar swiper-lazy" alt="isaacWaa">
+                            <div class="user-info">
+                                <div class="user-name">isaacWaa</div>
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="user-desc">网易UU远程非常好用。近些年用过最好用的远程控制工具了没有之一！延迟低，很流畅，并且应该是支持了所有常用终端，并且还支持 iPad 外接的 Magic Keyboard 输入，牛！~</p>
+                    </div>
+                    <div class="user-box">
+                        <div class="display-flex">
+                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_05_52cdbbc7.png" loading="lazy" class="user-avatar swiper-lazy" alt="k2008711">
+                            <div class="user-info">
+                                <div class="user-name">k2008711</div>
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="user-desc">非常棒的远程控制软件。用过几个远程软件，对比下来网易UU远程延迟很低，画面清晰，界面简洁，包体小，安装方便，可多端使用，非常方便，值得推荐。</p>
+                    </div>
+                    <div class="user-box">
+                        <div class="display-flex">
+                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_06_b3a42373.png" loading="lazy" class="user-avatar swiper-lazy" alt="骑士">
+                            <div class="user-info">
+                                <div class="user-name">骑士</div>
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="user-desc">谁懂啊，在外面也能控制电脑。可能是我用的比较少这种远程控制软件，感觉巨方便。我是做设计的，平时偶尔要出门看印刷什么的，印刷不好了，现场打开手机用网易UU远程就能改，好爽！</p>
+                    </div>
+                </div>
+                <div class="swiper-container swiper-comments" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="user-box">
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_01_98ea6a00.png" loading="lazy" class="user-avatar swiper-lazy" alt="evilsenior">
+                                    <div class="user-info">
+                                        <div class="user-name">evilsenior</div>
+                                        <div class="display-flex">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="user-desc">网易UU远程是非常棒的远程控制工具。画质高和延迟低，基本和本地效果一样，加上我在家配置的远程开机，一套组合拳下来体验贼爽。目前对外设支持不错，尤其是移动端支持了键盘鼠标，非常方便，外出远程打游戏很棒！</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="user-box">
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_02_40c62b50.png" loading="lazy" class="user-avatar swiper-lazy" alt="披风">
+                                    <div class="user-info">
+                                        <div class="user-name">披风</div>
+                                        <div class="display-flex">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="user-desc">网易UU远程是高品质远程控制软件。便捷、稳定、安全、多功能，支持移动端和桌面端。网易出品，让我随时随地可以远程家里的电脑，游玩各类游戏，超低延迟和高清画质，游戏体验极佳。</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="user-box">
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_03_7689a463.png" loading="lazy" class="user-avatar swiper-lazy" alt="公告我咯咯logo">
+                                    <div class="user-info">
+                                        <div class="user-name">公告我咯咯logo</div>
+                                        <div class="display-flex">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="user-desc">网易UU远程画质好，连接稳定。有时候晚上加班太晚或者周末加班的情况，希望可以在家里同时也不希望影响项目进度，会使用一些远程控制工具。这一款在 Wi-Fi 下使用，画质质量确实不错，连接也很稳定。</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="user-box">
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_04_6b4737eb.png" loading="lazy" class="user-avatar swiper-lazy" alt="isaacWaa">
+                                    <div class="user-info">
+                                        <div class="user-name">isaacWaa</div>
+                                        <div class="display-flex">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="user-desc">网易UU远程非常好用。近些年用过最好用的远程控制工具了没有之一！延迟低，很流畅，并且应该是支持了所有常用终端，并且还支持 iPad 外接的 Magic Keyboard 输入，牛！~</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="user-box">
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_05_52cdbbc7.png" loading="lazy" class="user-avatar swiper-lazy" alt="k2008711">
+                                    <div class="user-info">
+                                        <div class="user-name">k2008711</div>
+                                        <div class="display-flex">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="user-desc">非常棒的远程控制软件。用过几个远程软件，对比下来网易UU远程延迟很低，画面清晰，界面简洁，包体小，安装方便，可多端使用，非常方便，值得推荐。</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="user-box">
+                                <div class="display-flex">
+                                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/user_06_b3a42373.png" loading="lazy" class="user-avatar swiper-lazy" alt="骑士">
+                                    <div class="user-info">
+                                        <div class="user-name">骑士</div>
+                                        <div class="display-flex">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                            <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_starcomment_a32e455b.png" alt="star" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="user-desc">谁懂啊，在外面也能控制电脑。可能是我用的比较少这种远程控制软件，感觉巨方便。我是做设计的，平时偶尔要出门看印刷什么的，印刷不好了，现场打开手机用网易UU远程就能改，好爽！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="part part-comments">
+
+            <h2 class="part-tit" data-aos="fade-up"><img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/page_bottom_tit_e1caa139.png" alt="网易UU远程常见问题"></h2>
+            <div class="part-bd b-content-wrap part-bd--faqs" data-aos="fade-up">
+                <div class="faq-wrap">
+                                         <div class="faq-item">
+                        <h3 class="faq-item__hd display-flex flex-space-between">
+                            如何使用手机/平板远程电脑？
+                            <svg class="faq-item__arrow" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_arrow" />
+                            </svg>
+                        </h3>
+                        <div class="faq-item__bd">
+                            <div class="faq-item__bd-wrap">
+                                <p>在手机/平板与被控端电脑上分别安装 网易UU远程，使用同一手机号完成登录，在手机/平板上一键点击【进入桌面】即可发起远程。<span style="color:#cccccc;">* macOS 暂不支持被控</span></p>
+                            </div>
+                        </div>
+                    </div>
+                                         <div class="faq-item">
+                        <h3 class="faq-item__hd display-flex flex-space-between">
+                            如何使用手机远程玩端游？
+                            <svg class="faq-item__arrow" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_arrow" />
+                            </svg>
+                        </h3>
+                        <div class="faq-item__bd">
+                            <div class="faq-item__bd-wrap">
+                                远程电脑游戏时，可开启按键映射，选择热门游戏预设键位，如《魔兽世界》、《绝区零》等，也可自定义编辑个人键盘布局。若游戏支持触屏，如《原神》《崩坏：星穹铁道》启用多点触控，享受平板式流畅操作体验。
+                            </div>
+                        </div>
+                    </div>
+                                         <div class="faq-item">
+                        <h3 class="faq-item__hd display-flex flex-space-between">
+                            如何使用手柄和键鼠外设远程玩游戏？
+                            <svg class="faq-item__arrow" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_arrow" />
+                            </svg>
+                        </h3>
+                        <div class="faq-item__bd">
+                            <div class="faq-item__bd-wrap">
+                                手机/平板蓝牙连接Xbox、PS4、PS5、Switch Pro等手柄，支持4个手柄同时连，好友聚会可以一起玩多人游戏！手机/平板支持有线、无线连接、平板磁吸键盘、鼠标，随时玩《魔兽世界》等游戏。
+                            </div>
+                        </div>
+                    </div>
+                                         <div class="faq-item">
+                        <h3 class="faq-item__hd display-flex flex-space-between">
+                            如何进行文件传输？
+                            <svg class="faq-item__arrow" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#icon_arrow" />
+                            </svg>
+                        </h3>
+                        <div class="faq-item__bd">
+                            <div class="faq-item__bd-wrap">
+                                <p>使用网易UU远程进行远程连接时，任意设备之间均可以进行文件传输，支持传输图片、视频、文件及文件夹。</p>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+
+            </div>
+            <!-- <div class="comments_bg_box"></div> -->
+        </section>
+    </main>
+
+    <span style="display: none;" class="btn-totop display-flex flex-center" id="btn_top">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="#icon_top" />
+        </svg>
+    </span>
+
+    <div class="download-popup" id="download_popup">
+        <div class="download-popup__con display-flex flex-center b-border-box" id="download_popup__con">
+            <div class="download-popup__qrcode"></div>
+            <div class="download-popup__hd"></div>
+            <a target="_blank"></a>
+            <svg class="download-popup__close Jdownload_popup__close" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="#icon_close" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer-box">
+    <div class="footer-wrap b-content-wrap">
+        <div class="footer-bd display-flex-start flex-space-between">
+            <dl class="footer-item footer-item-01 flex-1">
+                <dt class="footer-tit">
+                    <img src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/logo_aeff9bc4.png" alt="logo" class="Jlogo footer-logo" loading="lazy" />
+                </dt>
+                <dd class="footer-share display-flex">
+                    <a class="footer-share__link footer-share__link--wb" href="https://weibo.com/u/7914129494" rel="nofollow" target="_blank" data-ssname="footer_weibo">
+                        <img class="footer-share__icon" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_wb_312920e4.png" alt="微博" loading="lazy">
+                    </a>
+                    <a class="footer-share__link footer-share__link--red" href="https://www.xiaohongshu.com/user/profile/659d199b000000002001fcde?xhsshare=CopyLink&appuid=659d199b000000002001fcde&apptime=1721184818&share_id=4f97773449d142078ba8407bbce248bc" rel="nofollow" target="_blank" data-ssname="footer_xiaohongshu">
+                        <img class="footer-share__icon" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_red_162c3ad1.png" alt="小红书" loading="lazy">
+                    </a>
+                    <a class="footer-share__link footer-share__link--dy" href="https://v.douyin.com/iMNF5u8T/" rel="nofollow" target="_blank" data-ssname="footer_douyin">
+                        <img class="footer-share__icon" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_douyin_55050802.png" alt="抖音" loading="lazy">
+                    </a>
+                    <a class="footer-share__link footer-share__link--bilibili" href="https://b23.tv/WD64HE6" rel="nofollow" target="_blank" data-ssname="footer_bilibili">
+                        <img class="footer-share__icon" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_bilibili_366c2232.png" alt="B站" loading="lazy">
+                    </a>
+                    <a class="footer-share__link footer-share__link--gif" href="https://v.kuaishou.com/OdB3LX" rel="nofollow" target="_blank" data-ssname="footer_gif">
+                        <img class="footer-share__icon" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/icon_gif_4495b922.png" alt="快手" loading="lazy">
+                    </a>
+                </dd>
+            </dl>
+            <div class="footer-content display-flex-start flex-1">
+                <dl class="footer-item ">
+                    <dt class="footer-tit">产品</dt>
+                    <dd><a href="/download/">下载</a></dd>
+                </dl>
+                <dl class="footer-item ">
+                    <dt class="footer-tit">帮助</dt>
+                    <dd><a data-ssname="streaming_button" href="https://uuyc.163.com/help/20241203/40220_1197649.html">手机远程电脑</a></dd>
+                    <dd><a data-ssname="sports_button" href="https://uuyc.163.com/help/20241204/40220_1197664.html">电脑远程协助</a></dd>
+                    <dd><a data-ssname="socialmedia_button" href="https://gameviewer.qiyukf.com/client?k=af5fa98dbaab875ccff2cb5db95bca85">在线客服</a></dd>
+                </dl>
+                <dl class="footer-item ">
+                    <dt class="footer-tit">公司</dt>
+                    <dd><a href="https://uuyc.163.com/contact/20240402/40294_1146067.html">隐私政策</a></dd>
+                    <dd><a href="https://uuyc.163.com/contact/20240402/40294_1146065.html">用户协议</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer-ft display-flex-start">
+            <img class="footer-ft__icon" src="https://uuyc.res.netease.com/pc/gw/20241129172408/img/logo_netease_a26cd037.png" loading="lazy" alt="netease">
+            <div class="footer-ft__nav">
+                <div><a href="http://gb.corp.163.com/gb/about/overview.html" target="_blank">公司简介</a> - <a href="http://help.163.com/" target="_blank">客户服务</a> - <a href="https://unisdk.update.netease.com/html/latest_v90.html" target="_blank">网易游戏隐私政策及儿童个人信息保护规则</a> - <a href="http://game.163.com/about/" target="_blank">网易游戏</a> - <a href="http://game.163.com/contact/" target="_blank">联系我们</a> - <a href="http://game.163.com/contact/business.html" target="_blank">商务合作</a> - <a href="http://hr.game.163.com/index.html" target="_blank">加入我们</a></div>
+                <i>
+                    网易公司版权所有 ©1997-<span id="footer_date">2024</span>
+                </i>
+                <a href="https://game.163.com/fcm/" target="_blank">网络游戏行业防沉迷自律公约</a>
+                <i class="icptxt">
+                    ICP备案：粤B2-20090191
+                </i>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--This is Git Project From UUYC/uuyc-website-24v1(30557)-->
+    <div class="address" style="display: none;">
+        <div id="shifouqudaoye" pub-name="是否是渠道页管理">no</div>
+        <div id="js_Btn_windows" pub-name="win版包体链接">https://adl.netease.com/d/g/uuremote/c/gw?type=pc</div>
+        <div id="js_Btn_android" pub-name="安卓版包体链接">https://adl.netease.com/d/g/uuremote/c/gw?type=android</div>
+        <div id="js_ewm_android" pub-name="安卓版二维码">https://gv.res.netease.com/pc/gw/20240401112850/img/and_code_17d946c6.png</div>
+        <div id="js_Btn_ios" pub-name="iOS版包体链接">https://adl.netease.com/d/g/uuremote/c/gw?type=ios</div>
+        <div id="js_ewm_ios" pub-name="iOS版二维码">https://adl.netease.com/d/g/uuremote/c/gw/qr</div>
+        <div id="js_Btn_mac" pub-name="MacOS版包体链接">https://adl.netease.com/d/g/uuremote/c/gw_mac</div>
+    </div>
+
+    <script src="https://nie.res.netease.com/comm/js/jquery(mixNIE).1.11.js"></script>
+    <script src="https://nie.res.netease.com/comm/js/nie/ref/swiper.3.4.1.js"></script>
+    <script defer src="https://uuyc.res.netease.com/pc/gw/20241129172408/js/global_include/common_js_8649078b.js"></script><i></i>
+<!--This is Git Project From UUYC/uuyc-website-24v1(30557)-->
+    <script id="qdjs" pub-name="qdjs"></script>
+
+</body>
+
+</html>
+<!--This is Git Project From UUYC/uuyc-website-24v1(30557)-->
+<!--stamp:4f0bde88-9f65-4c5c-81d7-7bf1e5a5b54f,tplId:28097,pageId:33225,tplName:UUYC-website-24v1[index_home][Pub][30557]-->

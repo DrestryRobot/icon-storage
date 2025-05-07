@@ -1,0 +1,43 @@
+{
+  "icons": [
+    {
+      "src": "https://nlp-eb.cdn.bcebos.com/static/eb/icon_512x512.791a06761511b2db3afc507fdbd0646d.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nlp-eb.cdn.bcebos.com/static/eb/icon_384x384.601730d04867a666c683377cc502823b.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nlp-eb.cdn.bcebos.com/static/eb/icon_256x256.574ee5947d7655ce04c8611e01cd5517.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nlp-eb.cdn.bcebos.com/static/eb/icon_192x192.bb6242807ceb38af71bc5e0d1e0df945.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nlp-eb.cdn.bcebos.com/static/eb/icon_128x128.3446683fe8c7ea460fd91f70e5d20644.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nlp-eb.cdn.bcebos.com/static/eb/icon_96x96.489990c01abd8583afc98d267de60a1a.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "文心一言",
+  "short_name": "文心一言",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "文心一言web版",
+  "background_color": "#fff",
+  "scope": "/",
+  "theme_color": "#fff"
+}

@@ -1,0 +1,27 @@
+{
+    "scope": "/",
+    "short_name": "iQIYI",
+    "name": "爱奇艺",
+    "description": "爱奇艺（iQIYI.com）内容丰富多元，涵盖电影、电视剧、动漫、纪录片、综艺、娱乐等热门视频，持续快速更新内容；视频播放清晰流畅，采用流畅设计，操作界面简单友好，真正为用户带来“悦享品质”的观映体验。",
+    "icons": [
+        {
+            "src": "./logo.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "categories": ["entertainment", "education", "kids", "sports", "lifestyle", "music", "video", "movie", "tv", "cartoon", "comic", "variety", "documentary"],
+    "start_url": "/?pmode=pwa",
+    "display_override": ["window-controls-overlay", "standalone"],
+    "display": "standalone",
+    "theme_color": "#111214",
+    "background_color": "#111214",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://www.iqiyi.com/manifest.json"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "short_name": "Alicloud",
+  "name": "Alibaba Cloud",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "//img.alicdn.com/tfs/TB1204tbQ5E3KVjSZFCXXbuzXXa-192-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "//img.alicdn.com/tfs/TB1i0tubRaE3KVjSZLeXXXsSFXa-512-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#FF6A00",
+  "theme_color": "#FF6A00",
+  "display": "standalone",
+  "orientation": "landscape"
+}
